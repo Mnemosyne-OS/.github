@@ -105,6 +105,18 @@ If a memory system quotes you a benchmark without shipping the run behind it, as
 | Repository | What it holds |
 |---|---|
 | **[Mnemosyne-Neural-OS](https://github.com/Mnemosyne-OS/Mnemosyne-Neural-OS)** | Documentation, the MnemoForge CLI, the developer SDKs, and every release of the desktop app. |
+| **[MnemosyneOS---benchmarks](https://github.com/Mnemosyne-OS/MnemosyneOS---benchmarks)** | The benchmark campaigns: methodology, per-question verdicts, raw run logs, and the kit that re-derives the score. |
+
+**Cartridges** — small apps that run inside the OS and share its memory. Each one is a
+worked example of the SDK as much as a tool:
+
+| Cartridge | What it does |
+|---|---|
+| **[MnemoReader](https://github.com/Mnemosyne-OS/MnemoReader---MnemosyneOS)** | A living PDF library that reads aloud. Drop in a folder, it extracts and remembers. |
+| **[MnemoArchipel](https://github.com/Mnemosyne-OS/MnemoArchipel---Mnemosyne-OS)** | A sovereign personal CRM — the people in your life, on your machine. |
+| **[MnemoResto](https://github.com/Mnemosyne-OS/MnemoResto---MnemosyneOS)** | The restaurant that forgets no guest: floor plan, reservations, guest history. |
+| **[Translator](https://github.com/Mnemosyne-OS/mnemosyne_OS-translator)** | Batch translation of text and Markdown under your own API key. |
+| **[BMAD](https://github.com/Mnemosyne-OS/mnemosyne_OS-bmad)** | A wizard that turns an idea into a structured project blueprint. |
 
 Open to build on, private at the core: the surfaces you extend are open, the memory
 engine is not.
