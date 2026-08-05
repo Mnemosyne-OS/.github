@@ -38,7 +38,7 @@
   </g>
 
   <!-- infinity sigil, left -->
-  <g transform="translate(448,192) scale(2.4) translate(-120,-64)">
+  <g transform="translate(454,189) scale(1.55) translate(-120,-64)">
     <path d="M64,64 C64,36 92,36 120,64 C148,92 176,92 176,64 C176,36 148,36 120,64 C92,92 64,92 64,64 Z"
       fill="none" stroke="#8b7cf0" stroke-opacity="0.5" stroke-width="10" stroke-linecap="round"
       filter="url(#labsGlow)" />
@@ -56,9 +56,9 @@
 
   <!-- text block -->
   <g font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
-    <text x="600" y="142" fill="#f4f2fa" font-size="58" font-weight="600" letter-spacing="13">MNEMOSYNE LABS</text>
-    <text x="602" y="188" fill="#8f83e8" font-size="19" font-weight="600" letter-spacing="7">OPEN LAB NOTES</text>
-    <text x="600" y="252" fill="#ffffff" font-size="31" font-weight="700">WHAT WE MEASURED. AND WHAT WAS WRONG.</text>
-    <text x="600" y="296" fill="#9b97ad" font-size="19">Whitepaper, audit kit, raw run ledgers — every number ships with its DOI.</text>
+    <text x="600" y="152" fill="#f4f2fa" font-size="58" font-weight="600" letter-spacing="13">MNEMOSYNE LABS</text>
+    <text x="602" y="198" fill="#8f83e8" font-size="19" font-weight="600" letter-spacing="7">OPEN LAB NOTES</text>
+    <text x="600" y="263" fill="#ffffff" font-size="31" font-weight="700">WHAT WE MEASURED. AND WHAT WAS WRONG.</text>
+    <text x="600" y="307" fill="#9b97ad" font-size="19">Whitepaper, audit kit, raw run ledgers — every number ships with its DOI.</text>
   </g>
 </svg>
