@@ -129,6 +129,26 @@ repository holds the campaigns: methodology, per-question verdicts, and raw run 
 
 <div align="center">
 
+<img src="assets/banner-labs.svg" width="100%" alt="Mnemosyne Labs — open lab notes. What we measured, and what was wrong." />
+
+</div>
+
+## 🧪 The Lab
+
+Research from the lab is published whole, with permanent identifiers — including the
+hypotheses that failed.
+
+| Publication | |
+|---|---|
+| **The Resonance Engine** — *A Multi-Engine Cognitive Memory Architecture for Sovereign AI Systems.* Whitepaper, v2.0, CC BY 4.0. | [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21728284-1682D4)](https://doi.org/10.5281/zenodo.21728284) |
+| **LongMemEval-M full-haystack verification kit** — *per-question ledgers and audit scripts.* CC BY 4.0 / MIT. | [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21727140-1682D4)](https://doi.org/10.5281/zenodo.21727140) |
+| **Lab notes** — what we measured, and what was wrong. | [![Read](https://img.shields.io/badge/Read-mnemosyne--os.com%2Flabs-8b5cf6)](https://mnemosyne-os.com/labs) |
+| **Author record** — the ORCID behind the deposits. | [![ORCID](https://img.shields.io/badge/ORCID-0009--0009--1087--3917-A6CE39?logo=orcid&logoColor=white)](https://orcid.org/0009-0009-1087-3917) |
+
+---
+
+<div align="center">
+
 <img src="assets/banner-tenet.png" width="100%" alt="Mnemosyne OS — Memory perceives. The human governs." />
 
 <br/><br/>

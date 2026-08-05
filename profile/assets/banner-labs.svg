@@ -1,0 +1,64 @@
+<svg viewBox="0 0 1584 396" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="labsTitle">
+  <title id="labsTitle">Mnemosyne Labs — what we measured, and what was wrong.</title>
+  <defs>
+    <radialGradient id="labsBg" cx="32%" cy="42%" r="85%">
+      <stop offset="0%" stop-color="#201a30" />
+      <stop offset="45%" stop-color="#121020" />
+      <stop offset="100%" stop-color="#0a0910" />
+    </radialGradient>
+    <linearGradient id="labsSigil" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8b7cf0" />
+      <stop offset="100%" stop-color="#e9e4fb" />
+    </linearGradient>
+    <filter id="labsGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="10" />
+    </filter>
+  </defs>
+
+  <rect width="1584" height="396" fill="url(#labsBg)" />
+
+  <!-- constellation, right side -->
+  <g stroke="#c9c2ee" stroke-opacity="0.16" stroke-width="1.2">
+    <line x1="1368" y1="70" x2="1462" y2="118" />
+    <line x1="1462" y1="118" x2="1506" y2="208" />
+    <line x1="1506" y1="208" x2="1428" y2="288" />
+    <line x1="1428" y1="288" x2="1352" y2="186" />
+    <line x1="1352" y1="186" x2="1368" y2="70" />
+    <line x1="1462" y1="118" x2="1352" y2="186" />
+  </g>
+  <g fill="#b6aaf0">
+    <circle cx="1368" cy="70" r="3" fill-opacity="0.55" />
+    <circle cx="1462" cy="118" r="2.4" fill-opacity="0.5" />
+    <circle cx="1506" cy="208" r="3" fill-opacity="0.55" />
+    <circle cx="1428" cy="288" r="2.4" fill-opacity="0.5" />
+    <circle cx="1352" cy="186" r="2" fill-opacity="0.45" />
+    <circle cx="1240" cy="96" r="1.6" fill-opacity="0.3" />
+    <circle cx="1298" cy="330" r="1.6" fill-opacity="0.3" />
+    <circle cx="1540" cy="120" r="1.6" fill-opacity="0.3" />
+  </g>
+
+  <!-- infinity sigil, left -->
+  <g transform="translate(448,192) scale(2.4) translate(-120,-64)">
+    <path d="M64,64 C64,36 92,36 120,64 C148,92 176,92 176,64 C176,36 148,36 120,64 C92,92 64,92 64,64 Z"
+      fill="none" stroke="#8b7cf0" stroke-opacity="0.5" stroke-width="10" stroke-linecap="round"
+      filter="url(#labsGlow)" />
+    <path d="M64,64 C64,36 92,36 120,64 C148,92 176,92 176,64 C176,36 148,36 120,64 C92,92 64,92 64,64 Z"
+      fill="none" stroke="url(#labsSigil)" stroke-width="9" stroke-linecap="round" />
+    <!-- weave, matching the brand mark: the SW–NE strand passes over, the NW–SE strand is
+         notched. Crossings sit at pathLength 75 and 225 of 300; dashes select exact segments. -->
+    <path d="M64,64 C64,36 92,36 120,64 C148,92 176,92 176,64 C176,36 148,36 120,64 C92,92 64,92 64,64 Z"
+      fill="none" stroke="#14111e" stroke-width="14" stroke-linecap="butt"
+      pathLength="300" stroke-dasharray="0 67.5 15 217.5" />
+    <path d="M64,64 C64,36 92,36 120,64 C148,92 176,92 176,64 C176,36 148,36 120,64 C92,92 64,92 64,64 Z"
+      fill="none" stroke="url(#labsSigil)" stroke-width="9" stroke-linecap="round"
+      pathLength="300" stroke-dasharray="0 213 24 63" />
+  </g>
+
+  <!-- text block -->
+  <g font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+    <text x="600" y="142" fill="#f4f2fa" font-size="58" font-weight="600" letter-spacing="13">MNEMOSYNE LABS</text>
+    <text x="602" y="188" fill="#8f83e8" font-size="19" font-weight="600" letter-spacing="7">OPEN LAB NOTES</text>
+    <text x="600" y="252" fill="#ffffff" font-size="31" font-weight="700">WHAT WE MEASURED. AND WHAT WAS WRONG.</text>
+    <text x="600" y="296" fill="#9b97ad" font-size="19">Whitepaper, audit kit, raw run ledgers — every number ships with its DOI.</text>
+  </g>
+</svg>
