@@ -153,7 +153,7 @@ The stories behind the numbers, on [the blog](https://mnemosyne-os.io/blog):
 **[72.9% — and the three questions we miss](https://mnemosyne-os.io/blog/full-haystack-72-9)** ·
 **[We gave personality control of memory. It cost 31 points.](https://mnemosyne-os.io/blog/personality-lens-31-points)** ·
 **[Present is not the same as loadable](https://mnemosyne-os.io/blog/a-release-that-could-not-load-a-model)** ·
-**[La mémoire que mon cerveau réclamait](https://mnemosyne-os.io/fr/blog/la-memoire-que-mon-cerveau-reclamait)** *(fr)*
+**[The memory my brain kept asking for](https://mnemosyne-os.io/blog/la-memoire-que-mon-cerveau-reclamait)**
 
 ---
 
