@@ -11,7 +11,7 @@
 <br/>
 
 [![Download](https://img.shields.io/badge/Download-Infinity_Edition_v1.3.8-111827?style=for-the-badge&logo=github)](https://github.com/Mnemosyne-OS/Mnemosyne-Neural-OS/releases/latest)
-[![Audit the benchmark](https://img.shields.io/badge/🔍_Audit_our_77.1%25_strict-yourself-33ffd6?style=for-the-badge&labelColor=0b1120)](https://github.com/Mnemosyne-OS/MnemosyneOS---benchmarks/tree/main/lexical-2026-08)
+[![Audit the benchmark](https://img.shields.io/badge/🔍_Audit_our_77.1%25_strict-yourself-33ffd6?style=for-the-badge&labelColor=0b1120)](https://mnemosyne-os.github.io/MnemosyneOS---benchmarks/verification-kit/)
 
 <br/>
 
@@ -127,7 +127,7 @@ those raw results in front of you.
 
 <div align="center">
 
-**[→ Audit the August campaign](https://github.com/Mnemosyne-OS/MnemosyneOS---benchmarks/tree/main/lexical-2026-08)** · **[→ Open the July verification kit](https://mnemosyne-os.github.io/MnemosyneOS---benchmarks/verification-kit/)**
+**[→ Open the verification kit](https://mnemosyne-os.github.io/MnemosyneOS---benchmarks/verification-kit/)** · **[→ The August raw runs](https://github.com/Mnemosyne-OS/MnemosyneOS---benchmarks/tree/main/lexical-2026-08)**
 
 </div>
 
