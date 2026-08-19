@@ -10,7 +10,7 @@
 
 <br/>
 
-[![Download](https://img.shields.io/badge/Download-Infinity_Edition_v1.3.6-111827?style=for-the-badge&logo=github)](https://github.com/Mnemosyne-OS/Mnemosyne-Neural-OS/releases/latest)
+[![Download](https://img.shields.io/badge/Download-Infinity_Edition_v1.3.8-111827?style=for-the-badge&logo=github)](https://github.com/Mnemosyne-OS/Mnemosyne-Neural-OS/releases/latest)
 [![Audit the benchmark](https://img.shields.io/badge/🔍_Audit_our_72.9%25-yourself-33ffd6?style=for-the-badge&labelColor=0b1120)](https://mnemosyne-os.github.io/MnemosyneOS---benchmarks/verification-kit/)
 
 <br/>
@@ -62,12 +62,13 @@ forgotten.
 |---|---|
 | 🗄️ **Vaults** | Memory partitioned by domain — code, notes, research, journal. Nothing bleeds between them unless you say so. |
 | 📜 **Chronicles** | Every memory keeps its kind and its context, so retrieval returns *why* something mattered, not just a matching string. |
+| 🔎 **Two-channel retrieval** | Your vault is ranked twice — by meaning and by exact words — and the two rankings are fused. A proper noun, an identifier or a number finds its session. Both channels run locally. |
 | 🌐 **Neural map** | Your memory as a navigable topology — see what connects to what, instead of trusting a black box. |
 | 🌙 **Consolidation** | A dream state that revisits old material while you are away, and writes down what it noticed. |
 | 🎙️ **Voice** | Local speech in and out, dispatched to real GPU or CPU so a heavy model never freezes the app. |
 | 🧩 **Cartridges** | The apps below, and yours — running inside the OS, sharing its memory. |
 
-**[→ Download Infinity Edition v1.3.6 · The Persona](https://github.com/Mnemosyne-OS/Mnemosyne-Neural-OS/releases/latest)** — Windows x64 (installer or portable) · macOS Apple Silicon · Linux deb/AppImage
+**[→ Download Infinity Edition v1.3.8 · The Second Channel](https://github.com/Mnemosyne-OS/Mnemosyne-Neural-OS/releases/latest)** — Windows x64 (installer or portable) · macOS Apple Silicon · Linux deb/AppImage
 
 The **[Mnemosyne-Neural-OS](https://github.com/Mnemosyne-OS/Mnemosyne-Neural-OS)** repository
 holds the documentation, the MnemoForge CLI, the developer SDKs, and every release.
@@ -109,11 +110,17 @@ is next.
 
 ## 🔬 A number you do not have to take on faith
 
-Mnemosyne OS scores **72.9% on LongMemEval-M**.
+Mnemosyne OS scores **72.9% on LongMemEval-M**, full-haystack — the variant nobody shows.
 
 Anyone can publish a percentage. We publish the ledger underneath it: every question,
 every retrieved chunk, every judgement — plus a script that re-derives the score from
 those raw results in front of you.
+
+A second campaign, graded by a **stricter** judge, measured what the two-channel
+retrieval of v1.3.8 actually bought: **29 → 37 of 48** questions, reproduced across two
+independent runs and confirmed on 48 held-out questions with zero regressions. Two
+graders, two numbers — we keep them apart rather than chaining them into a progression
+neither one supports.
 
 <div align="center">
 
@@ -140,7 +147,7 @@ hypotheses that failed.
 
 | Publication | |
 |---|---|
-| **The Resonance Engine** — *A Multi-Engine Cognitive Memory Architecture for Sovereign AI Systems.* Whitepaper, v2.0, CC BY 4.0. | [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21728284-1682D4)](https://doi.org/10.5281/zenodo.21728284) |
+| **The Resonance Engine** — *A Multi-Engine Cognitive Memory Architecture for Sovereign AI Systems.* Whitepaper, v2.1, CC BY 4.0. | [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21728283-1682D4)](https://doi.org/10.5281/zenodo.21728283) |
 | **LongMemEval-M full-haystack verification kit** — *per-question ledgers and audit scripts.* CC BY 4.0 / MIT. | [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21727140-1682D4)](https://doi.org/10.5281/zenodo.21727140) |
 | **Lab notes** — what we measured, and what was wrong. | [![Read](https://img.shields.io/badge/Read-mnemosyne--os.com%2Flabs-8b5cf6)](https://mnemosyne-os.com/labs) |
 | **Author record** — the ORCID behind the deposits. | [![ORCID](https://img.shields.io/badge/ORCID-0009--0009--1087--3917-A6CE39?logo=orcid&logoColor=white)](https://orcid.org/0009-0009-1087-3917) |
@@ -150,6 +157,7 @@ hypotheses that failed.
 ## ✍️ From the blog
 
 The stories behind the numbers, on [the blog](https://mnemosyne-os.io/blog):
+**[A multiplier cannot rescue a zero](https://mnemosyne-os.io/blog/a-multiplier-cannot-rescue-a-zero)** ·
 **[72.9% — and the three questions we miss](https://mnemosyne-os.io/blog/full-haystack-72-9)** ·
 **[We gave personality control of memory. It cost 31 points.](https://mnemosyne-os.io/blog/personality-lens-31-points)** ·
 **[Present is not the same as loadable](https://mnemosyne-os.io/blog/a-release-that-could-not-load-a-model)** ·
