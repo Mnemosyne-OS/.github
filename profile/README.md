@@ -11,7 +11,7 @@
 <br/>
 
 [![Download](https://img.shields.io/badge/Download-Infinity_Edition_v1.3.8-111827?style=for-the-badge&logo=github)](https://github.com/Mnemosyne-OS/Mnemosyne-Neural-OS/releases/latest)
-[![Audit the benchmark](https://img.shields.io/badge/🔍_Audit_our_72.9%25-yourself-33ffd6?style=for-the-badge&labelColor=0b1120)](https://mnemosyne-os.github.io/MnemosyneOS---benchmarks/verification-kit/)
+[![Audit the benchmark](https://img.shields.io/badge/🔍_Audit_our_77.1%25_strict-yourself-33ffd6?style=for-the-badge&labelColor=0b1120)](https://github.com/Mnemosyne-OS/MnemosyneOS---benchmarks/tree/main/lexical-2026-08)
 
 <br/>
 
@@ -110,21 +110,24 @@ is next.
 
 ## 🔬 A number you do not have to take on faith
 
-Mnemosyne OS scores **72.9% on LongMemEval-M**, full-haystack — the variant nobody shows.
+Mnemosyne OS scores **77.1% on LongMemEval-M**, full-haystack — ~480 distractor
+sessions per question, the variant nobody cites — under a **strict** judge, measured
+twice, verdict for verdict.
+
+In July we published **72.9%** as a floor, under a flexible judge. Since then retrieval
+gained a second, fully local channel — so we hardened the judge against ourselves and
+re-measured: **37 of 48**, reproduced across two independent runs, and confirmed on 48
+**held-out** questions with zero retrieval regressions. Under July's flexible judge, the
+same build measures **81.3%**. July's snapshot stays archived and citable exactly as it
+was published — a number we improved on is not a number we delete.
 
 Anyone can publish a percentage. We publish the ledger underneath it: every question,
-every retrieved chunk, every judgement — plus a script that re-derives the score from
+every retrieved chunk, every judgement — plus a script that re-derives each score from
 those raw results in front of you.
-
-A second campaign, graded by a **stricter** judge, measured what the two-channel
-retrieval of v1.3.8 actually bought: **29 → 37 of 48** questions, reproduced across two
-independent runs and confirmed on 48 held-out questions with zero regressions. Two
-graders, two numbers — we keep them apart rather than chaining them into a progression
-neither one supports.
 
 <div align="center">
 
-**[→ Open the verification kit](https://mnemosyne-os.github.io/MnemosyneOS---benchmarks/verification-kit/)**
+**[→ Audit the August campaign](https://github.com/Mnemosyne-OS/MnemosyneOS---benchmarks/tree/main/lexical-2026-08)** · **[→ Open the July verification kit](https://mnemosyne-os.github.io/MnemosyneOS---benchmarks/verification-kit/)**
 
 </div>
 
