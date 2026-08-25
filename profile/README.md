@@ -10,7 +10,7 @@
 
 <br/>
 
-[![Download](https://img.shields.io/badge/Download-Infinity_Edition_v1.3.8-111827?style=for-the-badge&logo=github)](https://github.com/Mnemosyne-OS/Mnemosyne-Neural-OS/releases/latest)
+[![Download](https://img.shields.io/badge/Download-Infinity_Edition_v1.4.0-111827?style=for-the-badge&logo=github)](https://github.com/Mnemosyne-OS/Mnemosyne-Neural-OS/releases/latest)
 [![Audit the benchmark](https://img.shields.io/badge/🔍_Audit_our_77.1%25_strict-yourself-33ffd6?style=for-the-badge&labelColor=0b1120)](https://mnemosyne-os.github.io/MnemosyneOS---benchmarks/verification-kit/)
 
 <br/>
@@ -68,7 +68,7 @@ forgotten.
 | 🎙️ **Voice** | Local speech in and out, dispatched to real GPU or CPU so a heavy model never freezes the app. |
 | 🧩 **Cartridges** | The apps below, and yours — running inside the OS, sharing its memory. |
 
-**[→ Download Infinity Edition v1.3.8 · The Second Channel](https://github.com/Mnemosyne-OS/Mnemosyne-Neural-OS/releases/latest)** — Windows x64 (installer or portable) · macOS Apple Silicon · Linux deb/AppImage
+**[→ Download Infinity Edition v1.4.0 · The Infinite Vision](https://github.com/Mnemosyne-OS/Mnemosyne-Neural-OS/releases/latest)** — Windows x64 (installer or portable) · macOS Apple Silicon · Linux deb/AppImage
 
 The **[Mnemosyne-Neural-OS](https://github.com/Mnemosyne-OS/Mnemosyne-Neural-OS)** repository
 holds the documentation, the MnemoForge CLI, the developer SDKs, and every release.
