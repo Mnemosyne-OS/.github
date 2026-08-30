@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300" role="img" aria-label="Yours: Build a cartridge with the MnemoForge CLI">
+  <title>Yours: Build a cartridge with the MnemoForge CLI</title>
+  <style>
+    :root {
+      --bg1:#efe3cc; --bg2:#efe3cc; --bg3:#e9dcc0;
+      --bloom:#d9a441; --bloomA:0; --tint:#d9a441; --tintA:0.15;
+      --ink:#33291f; --dim:#5f5245; --accent:#c4633e; --kicker:#33291f;
+      --hair:rgba(51,41,31,0.16); --panel:#f8f0dd; --edge:rgba(51,41,31,0.22);
+      --shadow:rgba(60,40,15,0.35); --stars:0;
+      --m1:#4E3A6E; --m2:#7B5EA7; --m3:#5E4585; --casing:#efe3cc; --glow:0.22;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg1:#16161D; --bg2:#0E0E13; --bg3:#07070A;
+        --bloom:#7C4DFF; --bloomA:0.26; --tint:#A98BFF; --tintA:0.10;
+        --ink:#F4F1FA; --dim:#8E88A0; --accent:#A98BFF; --kicker:#A98BFF;
+        --hair:rgba(255,255,255,0.08); --panel:rgba(255,255,255,0.04); --edge:rgba(255,255,255,0.10);
+        --shadow:rgba(0,0,0,0); --stars:0.16;
+        --m1:#7B5EA7; --m2:#A98BFF; --m3:#E4D6FF; --casing:#291F49; --glow:0.5;
+      }
+    }
+  </style>
+  <defs><linearGradient id="plate" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0%" style="stop-color:var(--bg1)"/><stop offset="55%" style="stop-color:var(--bg2)"/><stop offset="100%" style="stop-color:var(--bg3)"/>
+    </linearGradient>
+    <radialGradient id="bloom" cx="50%" cy="50%" r="46%">
+      <stop offset="0%" style="stop-color:var(--bloom);stop-opacity:var(--bloomA)"/>
+      <stop offset="55%" style="stop-color:var(--bloom);stop-opacity:calc(var(--bloomA) * 0.27)"/>
+      <stop offset="100%" style="stop-color:var(--bloom);stop-opacity:0"/>
+    </radialGradient>
+    <radialGradient id="tint" cx="84%" cy="14%" r="46%">
+      <stop offset="0%" style="stop-color:var(--tint);stop-opacity:var(--tintA)"/>
+      <stop offset="100%" style="stop-color:var(--tint);stop-opacity:0"/>
+    </radialGradient></defs>
+  <rect width="400" height="300" fill="url(#plate)"/>
+  <rect width="400" height="300" fill="url(#bloom)"/>
+  <rect width="400" height="300" fill="url(#tint)"/>
+  <rect x="7" y="9" width="388" height="288" rx="6" style="fill:var(--shadow)"/>
+  <rect x="4" y="4" width="388" height="288" rx="6" style="fill:var(--panel);stroke:var(--accent)" stroke-width="2" stroke-dasharray="9 7"/>
+  <g transform="translate(200 110) scale(1.4)"><g fill="none" style="stroke:var(--accent)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><circle cx="0" cy="0" r="25" stroke-dasharray="7 6"/><path d="M0 -12 L0 12 M-12 0 L12 0"/></g></g>
+  <text x="200" y="212" text-anchor="middle" style="fill:var(--ink)" font-family="'Segoe UI', Inter, system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="34" font-weight="600">Yours</text>
+  <text x="200" y="250" text-anchor="middle" style="fill:var(--dim)" font-family="'Segoe UI', Inter, system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="22">Build a cartridge with</text>
+  <text x="200" y="278" text-anchor="middle" style="fill:var(--dim)" font-family="'Segoe UI', Inter, system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="22">the MnemoForge CLI</text>
+</svg>

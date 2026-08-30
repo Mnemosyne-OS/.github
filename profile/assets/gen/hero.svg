@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 470" width="1600" height="470" role="img" aria-label="Mnemosyne OS. Everyone is building the intelligence. We build the relationship.">
+  <title>Mnemosyne OS. Everyone is building the intelligence. We build the relationship.</title>
+  <style>
+    :root {
+      --bg1:#efe3cc; --bg2:#efe3cc; --bg3:#e9dcc0;
+      --bloom:#d9a441; --bloomA:0; --tint:#d9a441; --tintA:0.15;
+      --ink:#33291f; --dim:#5f5245; --accent:#c4633e; --kicker:#33291f;
+      --hair:rgba(51,41,31,0.16); --panel:#f8f0dd; --edge:rgba(51,41,31,0.22);
+      --shadow:rgba(60,40,15,0.35); --stars:0;
+      --m1:#4E3A6E; --m2:#7B5EA7; --m3:#5E4585; --casing:#efe3cc; --glow:0.22;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg1:#16161D; --bg2:#0E0E13; --bg3:#07070A;
+        --bloom:#7C4DFF; --bloomA:0.26; --tint:#A98BFF; --tintA:0.10;
+        --ink:#F4F1FA; --dim:#8E88A0; --accent:#A98BFF; --kicker:#A98BFF;
+        --hair:rgba(255,255,255,0.08); --panel:rgba(255,255,255,0.04); --edge:rgba(255,255,255,0.10);
+        --shadow:rgba(0,0,0,0); --stars:0.16;
+        --m1:#7B5EA7; --m2:#A98BFF; --m3:#E4D6FF; --casing:#291F49; --glow:0.5;
+      }
+    }
+    .trail { animation: flow 11s linear infinite; }
+    @keyframes flow { from { stroke-dashoffset: 0 } to { stroke-dashoffset: -300 } }
+    @media (prefers-reduced-motion: reduce) { .trail { animation: none; opacity: 0 } }
+  </style>
+  <defs>
+    <linearGradient id="plate" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0%" style="stop-color:var(--bg1)"/><stop offset="55%" style="stop-color:var(--bg2)"/><stop offset="100%" style="stop-color:var(--bg3)"/>
+    </linearGradient>
+    <radialGradient id="bloom" cx="19%" cy="50%" r="46%">
+      <stop offset="0%" style="stop-color:var(--bloom);stop-opacity:var(--bloomA)"/>
+      <stop offset="55%" style="stop-color:var(--bloom);stop-opacity:calc(var(--bloomA) * 0.27)"/>
+      <stop offset="100%" style="stop-color:var(--bloom);stop-opacity:0"/>
+    </radialGradient>
+    <radialGradient id="tint" cx="84%" cy="14%" r="46%">
+      <stop offset="0%" style="stop-color:var(--tint);stop-opacity:var(--tintA)"/>
+      <stop offset="100%" style="stop-color:var(--tint);stop-opacity:0"/>
+    </radialGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" style="stop-color:var(--accent);stop-opacity:0.6"/>
+      <stop offset="100%" style="stop-color:var(--accent);stop-opacity:0"/>
+    </linearGradient>
+    <linearGradient id="flow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" style="stop-color:var(--m1)"/><stop offset="45%" style="stop-color:var(--m2)"/><stop offset="100%" style="stop-color:var(--m3)"/>
+    </linearGradient>
+    <filter id="glow" x="-60%" y="-160%" width="220%" height="420%">
+      <feGaussianBlur stdDeviation="1.418"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="470" fill="url(#plate)"/>
+  <rect width="1600" height="470" fill="url(#bloom)"/>
+  <rect width="1600" height="470" fill="url(#tint)"/>
+  <g style="stroke:var(--m2);fill:var(--m2);opacity:var(--stars)" transform="translate(90 -6)">
+    <g stroke-width="1" fill="none"><path d="M1268 118 L1352 76 M1352 76 L1436 132 M1436 132 L1372 214 M1372 214 L1268 118 M1436 132 L1500 200 M1372 214 L1424 296"/></g>
+    <g stroke="none"><circle cx="1268" cy="118" r="3"/><circle cx="1352" cy="76" r="2.2"/><circle cx="1436" cy="132" r="3.4"/><circle cx="1372" cy="214" r="2.6"/><circle cx="1500" cy="200" r="2"/><circle cx="1424" cy="296" r="2.4"/></g>
+  </g>
+  <rect x="0" y="468.5" width="1600" height="1.5" style="fill:var(--hair)"/>
+  <g transform="translate(310 235) scale(2.857142857142857) translate(-60 -32)">
+    <g filter="url(#glow)" style="opacity:var(--glow)">
+      <path d="M32 32 C32 18 46 18 60 32 C74 46 88 46 88 32 C88 18 74 18 60 32 C46 46 32 46 32 32 Z" fill="none" stroke="url(#flow)" stroke-width="5.848" stroke-linecap="round"/>
+    </g>
+    <path d="M32 32 C32 18 46 18 60 32 C74 46 88 46 88 32 C88 18 74 18 60 32 C46 46 32 46 32 32 Z" fill="none" stroke="url(#flow)" stroke-width="5.848" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M32 32 C32 18 46 18 60 32 C74 46 88 46 88 32 C88 18 74 18 60 32 C46 46 32 46 32 32 Z" fill="none" style="stroke:var(--casing)" stroke-width="8.860" stroke-linecap="butt"
+          pathLength="300" stroke-dasharray="14 286" stroke-dashoffset="-218"/>
+    <path d="M32 32 C32 18 46 18 60 32 C74 46 88 46 88 32 C88 18 74 18 60 32 C46 46 32 46 32 32 Z" fill="none" stroke="url(#flow)" stroke-width="5.848" stroke-linecap="round"
+          pathLength="300" stroke-dasharray="14 286" stroke-dashoffset="-218"/>
+    <path class="trail" d="M32 32 C32 18 46 18 60 32 C74 46 88 46 88 32 C88 18 74 18 60 32 C46 46 32 46 32 32 Z" fill="none" style="stroke:var(--m3)" stroke-width="3.2164"
+          stroke-linecap="round" pathLength="300" stroke-dasharray="26 274"/>
+  </g>
+  <g font-family="'Segoe UI', Inter, system-ui, -apple-system, Helvetica, Arial, sans-serif">
+    <text x="440" y="152" style="fill:var(--ink)" font-size="60" font-weight="600" letter-spacing="9">MNEMOSYNE OS</text>
+    <rect x="444" y="180" width="340" height="1" fill="url(#rule)"/>
+    <text x="444" y="218" style="fill:var(--kicker)" font-family="ui-monospace, 'Cascadia Mono', Consolas, 'SF Mono', Menlo, monospace" font-size="24" font-weight="600" letter-spacing="6">THE SOVEREIGN MEMORY OS</text>
+    <text x="440" y="300" style="fill:var(--ink)" font-size="42" font-weight="600">Everyone is building the intelligence.</text>
+    <text x="440" y="352" style="fill:var(--accent)" font-size="42" font-weight="600">We build the relationship.</text>
+    <text x="444" y="404" style="fill:var(--dim)" font-size="26">The memory that makes an AI actually know you. On your machine. Yours to read.</text>
+  </g>
+</svg>

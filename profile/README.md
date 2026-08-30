@@ -1,15 +1,8 @@
 <div align="center">
 
-<img src="assets/banner-hero.png" width="100%" alt="Mnemosyne OS. Infinity Edition. Your memory. Your machine. Your rules." />
+<img width="100%" alt="Mnemosyne OS, the sovereign memory OS. Everyone is building the intelligence. We build the relationship." src="assets/gen/hero.svg">
 
 <br/><br/>
-
-### Everyone is building the intelligence. We build the relationship.
-
-*The memory that makes an AI actually know you, across sessions and across years.*
-*On your machine. Yours to read.*
-
-<br/>
 
 [![Download Infinity Edition](https://img.shields.io/badge/Download-Infinity_Edition_v1.4.2-111827?style=for-the-badge&logo=github)](https://github.com/Mnemosyne-OS/Mnemosyne-Neural-OS/releases/latest)
 [![Documentation](https://img.shields.io/badge/📖_Read_the_guide-docs.mnemosyne--os.io-8b5cf6?style=for-the-badge&labelColor=0b1120)](https://docs.mnemosyne-os.io)
@@ -23,13 +16,9 @@
 ![Interface](https://img.shields.io/badge/interface-7_languages-a98bff)
 ![License](https://img.shields.io/badge/license-open--core-8b5cf6)
 
-<br/>
-
 </div>
 
----
-
-## Start here
+<h2><img width="100%" alt="01. Start here, three doors" src="assets/gen/band-start.svg"></h2>
 
 | | | |
 |---|---|---|
@@ -38,16 +27,12 @@
 | 🔬 **Check the claim** | 77.1% on LongMemEval-M under a strict judge, published with every question, every retrieved chunk and every verdict. | [**Open the verification kit**](https://mnemosyne-os.github.io/MnemosyneOS---benchmarks/verification-kit/) |
 
 <div align="center">
-<br/>
-<img src="assets/neural-map-torus.jpg" width="32%" alt="The neural map: memory rendered as a navigable topology" />
-<img src="assets/mnemohub-store.jpg" width="32%" alt="MnemoHub, the cartridge store" />
-<img src="assets/sovereign-notes.jpg" width="32%" alt="Sovereign notes: your files as durable memory" />
-<br/><br/>
+
+<img width="100%" alt="77.1% on LongMemEval-M under a strict judge. Around 480 distractor sessions per question. 100% local, your memory never leaves your machine. 7 languages: EN, FR, ES, DE, PT, RU, ZH." src="assets/gen/strip-numbers.svg">
+
 </div>
 
----
-
-## What it is, in one paragraph
+<h2><img width="100%" alt="02. What it is, one paragraph" src="assets/gen/band-what.svg"></h2>
 
 Mem0, Zep and Letta hand *an agent* a memory service you wire into a cloud stack.
 Mnemosyne OS is a desktop application, and the customer is you. It installs on your
@@ -62,51 +47,49 @@ forgotten.
 
 **[→ The full tour, in the repository README](https://github.com/Mnemosyne-OS/Mnemosyne-Neural-OS#readme)**
 
----
+<div align="center">
+<br/>
+<img src="assets/neural-map-torus.jpg" width="32%" alt="The neural map: memory rendered as a navigable topology" />
+<img src="assets/mnemohub-store.jpg" width="32%" alt="MnemoHub, the cartridge store" />
+<img src="assets/sovereign-notes.jpg" width="32%" alt="Sovereign notes: your files as durable memory" />
+<br/>
+</div>
 
-## Everything in this organization
-
-### 💿 The OS and the SDK
+<h2><img width="100%" alt="03. The organization, 11 public repositories" src="assets/gen/band-org.svg"></h2>
 
 | Repository | What lives there |
 |---|---|
-| **[Mnemosyne-Neural-OS](https://github.com/Mnemosyne-OS/Mnemosyne-Neural-OS)** | The desktop app: documentation, the MnemoForge CLI, the developer SDKs, and every signed release for the three platforms. |
+| 💿 **[Mnemosyne-Neural-OS](https://github.com/Mnemosyne-OS/Mnemosyne-Neural-OS)** | The desktop app: documentation, the MnemoForge CLI, the developer SDKs, and every signed release for the three platforms. |
+| 🔬 **[MnemosyneOS---benchmarks](https://github.com/Mnemosyne-OS/MnemosyneOS---benchmarks)** | The benchmark campaigns published whole: methodology, per-question verdicts, raw run logs, and a kit that re-derives every score in front of you. CC BY 4.0. |
+| 🌐 **[mnemosyne-os.github.io](https://github.com/Mnemosyne-OS/mnemosyne-os.github.io)** | The organization on GitHub Pages: the product, the documentation, the open packages. |
+| 📄 **[.github](https://github.com/Mnemosyne-OS/.github)** | This page, and the generator that draws it. |
 
-### 🧩 The cartridges
+The seven remaining repositories are the cartridges below.
+
+<h2><img width="100%" alt="04. The cartridges, 7 apps inside the OS" src="assets/gen/band-cartridges.svg"></h2>
 
 Small apps that run *inside* the OS and share its memory. One click from MnemoHub, the
 built-in store. Each one is a worked example of the SDK as much as a tool.
 
-| Cartridge | What it does |
-|---|---|
-| **[Muse](https://github.com/Mnemosyne-OS/Muse)** | Neural coding. Describe an app in plain words, Muse frames it with you, designs it, scaffolds a real project on disk and hands it to your IDE agent, grounded in your memory. |
-| **[MnemoReader](https://github.com/Mnemosyne-OS/MnemoReader---MnemosyneOS)** | A living PDF library that reads aloud. Drop in a folder, it extracts, remembers, and follows the text word by word. |
-| **[MnemoArchipel](https://github.com/Mnemosyne-OS/MnemoArchipel---Mnemosyne-OS)** | A sovereign personal CRM. The people in your life, mapped on your own machine. |
-| **[MnemoResto](https://github.com/Mnemosyne-OS/MnemoResto---MnemosyneOS)** | The restaurant that forgets no guest: floor plan, reservations, guest history, register. |
-| **[Oikos](https://github.com/Mnemosyne-OS/Oikos)** | Your Home Assistant, read into your memory. Sensors, cameras, and a searchable archive of stills. Read only, local network only. |
-| **[Translator](https://github.com/Mnemosyne-OS/mnemosyne_OS-translator)** | Batch translation of text and Markdown under your own API key. |
-| **[BMAD](https://github.com/Mnemosyne-OS/mnemosyne_OS-bmad)** | A wizard that turns an idea into a structured project blueprint. |
+<div align="center">
+
+<a href="https://github.com/Mnemosyne-OS/Muse"><img width="24%" alt="Muse: describe an app, get a real project on disk" src="assets/gen/card-muse.svg"></a>
+<a href="https://github.com/Mnemosyne-OS/MnemoReader---MnemosyneOS"><img width="24%" alt="MnemoReader: a PDF library that reads itself aloud" src="assets/gen/card-reader.svg"></a>
+<a href="https://github.com/Mnemosyne-OS/MnemoArchipel---Mnemosyne-OS"><img width="24%" alt="MnemoArchipel: a sovereign CRM for the people in your life" src="assets/gen/card-archipel.svg"></a>
+<a href="https://github.com/Mnemosyne-OS/MnemoResto---MnemosyneOS"><img width="24%" alt="MnemoResto: the restaurant that forgets no guest" src="assets/gen/card-resto.svg"></a>
+
+<a href="https://github.com/Mnemosyne-OS/Oikos"><img width="24%" alt="Oikos: your home, read into your own memory" src="assets/gen/card-oikos.svg"></a>
+<a href="https://github.com/Mnemosyne-OS/mnemosyne_OS-translator"><img width="24%" alt="Translator: batch translation under your own key" src="assets/gen/card-translator.svg"></a>
+<a href="https://github.com/Mnemosyne-OS/mnemosyne_OS-bmad"><img width="24%" alt="BMAD: an idea turned into a project blueprint" src="assets/gen/card-bmad.svg"></a>
+<a href="https://github.com/Mnemosyne-OS/Mnemosyne-Neural-OS#readme"><img width="24%" alt="Yours: build a cartridge with the MnemoForge CLI" src="assets/gen/card-yours.svg"></a>
+
+</div>
 
 Oikos, MnemoReader and Translator are MIT. The other four carry the Mnemosyne cartridge
 licence: read the source, adapt it for yourself, run it inside the OS. The surfaces you
 extend are open, the memory engine is sealed.
 
-### 🔬 The proof
-
-| Repository | What lives there |
-|---|---|
-| **[MnemosyneOS---benchmarks](https://github.com/Mnemosyne-OS/MnemosyneOS---benchmarks)** | The benchmark campaigns published whole: methodology, per-question verdicts, raw run logs, and a kit that re-derives every score in front of you. CC BY 4.0. |
-
-### 🌐 The pages
-
-| Repository | What lives there |
-|---|---|
-| **[mnemosyne-os.github.io](https://github.com/Mnemosyne-OS/mnemosyne-os.github.io)** | The organization on GitHub Pages: the product, the documentation, the open packages. |
-| **[.github](https://github.com/Mnemosyne-OS/.github)** | This page. |
-
----
-
-## 🫀 Psyche, the soul engine
+<h2><img width="100%" alt="05. Psyche, the soul engine" src="assets/gen/band-psyche.svg"></h2>
 
 Memory is half of the relationship. Psyche is the other half: a persistent personality
 for your AI, character, voice and identity, forged by you in a guided ritual and
@@ -117,9 +100,7 @@ next.
 
 **[→ psyche.mnemosyne-os.io](https://psyche.mnemosyne-os.io)**
 
----
-
-## 🔬 A number you do not have to take on faith
+<h2><img width="100%" alt="06. The proof, every run published" src="assets/gen/band-proof.svg"></h2>
 
 Mnemosyne OS scores **77.1% on LongMemEval-M**, full-haystack, around 480 distractor
 sessions per question, the variant nobody cites. That figure comes from a **strict**
@@ -141,15 +122,7 @@ those raw results.
 
 </div>
 
----
-
-<div align="center">
-
-<img src="assets/banner-labs.svg" width="100%" alt="Mnemosyne Labs. Open lab notes. What we measured, and what was wrong." />
-
-</div>
-
-## 🧪 The Lab
+<h2><img width="100%" alt="07. The lab, archived with a DOI" src="assets/gen/band-lab.svg"></h2>
 
 Research is published whole, with permanent identifiers, including the hypotheses that
 failed.
@@ -161,9 +134,7 @@ failed.
 | **Lab notes**: what we measured, and what was wrong. | [![Read](https://img.shields.io/badge/Read-mnemosyne--os.com%2Flabs-8b5cf6)](https://mnemosyne-os.com/labs) |
 | **Author record**: the ORCID behind the deposits. | [![ORCID](https://img.shields.io/badge/ORCID-0009--0009--1087--3917-A6CE39?logo=orcid&logoColor=white)](https://orcid.org/0009-0009-1087-3917) |
 
----
-
-## 📍 Where the project lives
+<h2><img width="100%" alt="08. Where it lives, the official addresses" src="assets/gen/band-lives.svg"></h2>
 
 Published by **XPACEGEMS LLC**. These are its official addresses.
 
@@ -177,27 +148,21 @@ Published by **XPACEGEMS LLC**. These are its official addresses.
 | **Packages** | the npm scope `@mnemosyne_os`, [the list](https://mnemosyne-os.io/packages) |
 | **Contact** | [dev@mnemosyne-os.io](mailto:dev@mnemosyne-os.io) |
 
----
-
-## ✍️ From the blog
-
-The stories behind the numbers, on [the blog](https://mnemosyne-os.io/blog):
+The stories behind the numbers are on [the blog](https://mnemosyne-os.io/blog):
 **[A multiplier cannot rescue a zero](https://mnemosyne-os.io/blog/a-multiplier-cannot-rescue-a-zero)** ·
 **[72.9% and the three questions we miss](https://mnemosyne-os.io/blog/full-haystack-72-9)** ·
 **[We gave personality control of memory. It cost 31 points.](https://mnemosyne-os.io/blog/personality-lens-31-points)** ·
 **[Present is not the same as loadable](https://mnemosyne-os.io/blog/a-release-that-could-not-load-a-model)** ·
 **[The memory my brain kept asking for](https://mnemosyne-os.io/blog/la-memoire-que-mon-cerveau-reclamait)**
 
----
-
 <div align="center">
 
-<img src="assets/banner-tenet.png" width="100%" alt="Mnemosyne OS. Memory perceives. The human governs." />
+<br/>
 
-<br/><br/>
+<img width="100%" alt="Memory perceives, situates and reveals. The human governs." src="assets/gen/closer.svg">
+
+<br/>
 
 **[mnemosyne-os.io](https://mnemosyne-os.io)** · **[psyche.mnemosyne-os.io](https://psyche.mnemosyne-os.io)** · **[mnemosyne-os.com](https://mnemosyne-os.com)** · **[docs.mnemosyne-os.io](https://docs.mnemosyne-os.io)**
-
-<sub>Memory perceives, situates and reveals. The human governs.</sub>
 
 </div>
