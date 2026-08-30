@@ -2,22 +2,12 @@
   <title>Memory perceives, situates and reveals. The human governs.</title>
   <style>
     :root {
-      --bg1:#efe3cc; --bg2:#efe3cc; --bg3:#e9dcc0;
-      --bloom:#d9a441; --bloomA:0; --tint:#d9a441; --tintA:0.15;
-      --ink:#33291f; --dim:#5f5245; --accent:#c4633e; --kicker:#33291f;
-      --hair:rgba(51,41,31,0.16); --panel:#f8f0dd; --edge:rgba(51,41,31,0.22);
-      --shadow:rgba(60,40,15,0.35); --stars:0;
-      --m1:#4E3A6E; --m2:#7B5EA7; --m3:#5E4585; --casing:#efe3cc; --glow:0.22;
-    }
-    @media (prefers-color-scheme: dark) {
-      :root {
-        --bg1:#16161D; --bg2:#0E0E13; --bg3:#07070A;
-        --bloom:#7C4DFF; --bloomA:0.26; --tint:#A98BFF; --tintA:0.10;
-        --ink:#F4F1FA; --dim:#8E88A0; --accent:#A98BFF; --kicker:#A98BFF;
-        --hair:rgba(255,255,255,0.08); --panel:rgba(255,255,255,0.04); --edge:rgba(255,255,255,0.10);
-        --shadow:rgba(0,0,0,0); --stars:0.16;
-        --m1:#7B5EA7; --m2:#A98BFF; --m3:#E4D6FF; --casing:#291F49; --glow:0.5;
-      }
+      --bg1:#16161D; --bg2:#0E0E13; --bg3:#07070A;
+      --bloom:#7C4DFF; --bloomA:0.26; --tint:#A98BFF; --tintA:0.10;
+      --ink:#F4F1FA; --dim:#8E88A0; --accent:#A98BFF; --kicker:#A98BFF;
+      --hair:rgba(255,255,255,0.08); --panel:rgba(255,255,255,0.04); --edge:rgba(255,255,255,0.10);
+      --stars:0.16;
+      --m1:#7B5EA7; --m2:#A98BFF; --m3:#E4D6FF; --casing:#291F49; --glow:0.5;
     }
   </style>
   <defs><linearGradient id="plate" x1="0" y1="0" x2="0.35" y2="1">

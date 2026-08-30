@@ -5,18 +5,21 @@
  *
  * Copy lives in scripts/art.config.json. Edit that, not this file.
  *
- * Each piece is ONE file in profile/assets/gen/ that carries BOTH palettes and
- * picks between them itself, with a `prefers-color-scheme` block in the SVG's
- * own <style>. The violet plate is the theme the brand already uses on LinkedIn
- * and in the app icon; the kraft one is its PAPIER counterpart.
+ * Each piece is ONE file in profile/assets/gen/, on the violet plate the brand
+ * already uses on LinkedIn and in the app icon, whatever theme the reader has
+ * GitHub set to. A kraft PAPIER variant was drawn and dropped on 2026-08-30:
+ * Tony saw it live and asked for the plate on both. Do not reintroduce a second
+ * palette without asking.
  *
- * Why not <picture media="(prefers-color-scheme: dark)">, the documented GitHub
+ * So the palette is ONE :root block. If a second one ever does come back it
+ * belongs in a `prefers-color-scheme` block INSIDE this file, and never in
+ * <picture media="(prefers-color-scheme: dark)">, the documented GitHub
  * way: it cannot be combined with a link. Measured through GitHub's own
  * markdown API, `<a href="repo"><picture>…<img></picture></a>` comes back with
  * the <img> RIPPED OUT of the <picture> and re-anchored to the image file, so
  * the cartridge cards would have linked to an .svg instead of their repository
- * AND lost their dark variant. A bare <img> inside an anchor is left alone, so
- * the theme has to live inside the file. Re-measure before changing this back.
+ * AND lost their variant. A bare <img> inside an anchor is left alone, so the
+ * theme has to live inside the file. Re-measure before changing this back.
  *
  * Why SVG and not PNG like apps/infinity-edition/scripts/gen-banner.cjs: that
  * generator rasterises through Electron because its output is uploaded to
@@ -57,33 +60,21 @@ const SANS = "'Segoe UI', Inter, system-ui, -apple-system, Helvetica, Arial, san
 const MONO = "ui-monospace, 'Cascadia Mono', Consolas, 'SF Mono', Menlo, monospace";
 
 /**
- * Both palettes come from the design system, and every text pair was measured
- * with its check_contrast script rather than eyeballed:
- *   kraft  ink 11.19:1 · dim 5.95:1 · terra 3.18:1 (display sizes only, which
- *          is why --kicker falls back to ink here)
- *   plate  ink 17.24:1 · accent 7.17:1 · dim 5.66:1
+ * The palette comes from the design system, and every text pair on it was
+ * measured with that system's check_contrast script rather than eyeballed:
+ * ink 17.24:1, accent 7.17:1 and dim 5.66:1, all on the plate at #0E0E13.
  *
  * Colours are applied through style="" rather than presentation attributes:
  * var() is not honoured inside a presentation attribute.
  */
 const TOKENS = `
     :root {
-      --bg1:#efe3cc; --bg2:#efe3cc; --bg3:#e9dcc0;
-      --bloom:#d9a441; --bloomA:0; --tint:#d9a441; --tintA:0.15;
-      --ink:#33291f; --dim:#5f5245; --accent:#c4633e; --kicker:#33291f;
-      --hair:rgba(51,41,31,0.16); --panel:#f8f0dd; --edge:rgba(51,41,31,0.22);
-      --shadow:rgba(60,40,15,0.35); --stars:0;
-      --m1:#4E3A6E; --m2:#7B5EA7; --m3:#5E4585; --casing:#efe3cc; --glow:0.22;
-    }
-    @media (prefers-color-scheme: dark) {
-      :root {
-        --bg1:#16161D; --bg2:#0E0E13; --bg3:#07070A;
-        --bloom:#7C4DFF; --bloomA:0.26; --tint:#A98BFF; --tintA:0.10;
-        --ink:#F4F1FA; --dim:#8E88A0; --accent:#A98BFF; --kicker:#A98BFF;
-        --hair:rgba(255,255,255,0.08); --panel:rgba(255,255,255,0.04); --edge:rgba(255,255,255,0.10);
-        --shadow:rgba(0,0,0,0); --stars:0.16;
-        --m1:#7B5EA7; --m2:#A98BFF; --m3:#E4D6FF; --casing:#291F49; --glow:0.5;
-      }
+      --bg1:#16161D; --bg2:#0E0E13; --bg3:#07070A;
+      --bloom:#7C4DFF; --bloomA:0.26; --tint:#A98BFF; --tintA:0.10;
+      --ink:#F4F1FA; --dim:#8E88A0; --accent:#A98BFF; --kicker:#A98BFF;
+      --hair:rgba(255,255,255,0.08); --panel:rgba(255,255,255,0.04); --edge:rgba(255,255,255,0.10);
+      --stars:0.16;
+      --m1:#7B5EA7; --m2:#A98BFF; --m3:#E4D6FF; --casing:#291F49; --glow:0.5;
     }`;
 
 const esc = (v) =>
@@ -97,7 +88,7 @@ function open(w, h, title, extraStyle = '') {
 }
 
 /**
- * The plate (or the kraft), plus the two blooms. `bloomX` puts the first bloom
+ * The plate, plus the two blooms. `bloomX` puts the first bloom
  * over the mark, which is what makes --casing the colour the background
  * actually composites to at the mark's centre. Ink there would read as a hole
  * punched in the mark.
@@ -322,8 +313,6 @@ function card(copy) {
   const H = 300;
   const [l1, l2] = balance(copy.role);
   const g = ground(W, H, 50);
-  // The offset drop is the PAPIER idiom, paper lifted off the set. It reads as
-  // nothing on the plate, where --shadow is fully transparent.
   const edge = copy.cta
     ? `style="fill:var(--panel);stroke:var(--accent)" stroke-width="2" stroke-dasharray="9 7"`
     : `style="fill:var(--panel);stroke:var(--edge)" stroke-width="1.5"`;
@@ -331,7 +320,6 @@ function card(copy) {
   return `${open(W, H, `${copy.name}: ${copy.role}`)}
   <defs>${g.defs}</defs>
   ${g.fill}
-  <rect x="7" y="9" width="${W - 12}" height="${H - 12}" rx="6" style="fill:var(--shadow)"/>
   <rect x="4" y="4" width="${W - 12}" height="${H - 12}" rx="6" ${edge}/>
   <g transform="translate(${W / 2} 110) scale(1.4)">${sigil(copy.sigil)}</g>
   <text x="${W / 2}" y="212" text-anchor="middle" style="fill:var(--ink)" font-family="${SANS}" font-size="34" font-weight="600">${esc(copy.name)}</text>
