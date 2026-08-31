@@ -1,46 +1,152 @@
 {
-  "$comment": "Copy deck for gen-art.mjs. Edit this file, never the script. Every entry is rendered twice, once per theme, into profile/assets/gen/<name>-light.svg and -dark.svg. Text is live SVG text rendered with the visitor's system fonts, so keep display lines short: the layouts carry about 25% slack and nothing is boxed tight around a string.",
-
-  "hero": {
-    "wordmark": "MNEMOSYNE OS",
-    "kicker": "THE SOVEREIGN MEMORY OS",
-    "line1": "Everyone is building the intelligence.",
-    "line2": "We build the relationship.",
-    "sub": "The memory that makes an AI actually know you. On your machine. Yours to read."
-  },
-
-  "strip": {
-    "cells": [
-      { "value": "77.1%", "label": ["LongMemEval-M", "under a strict judge"] },
-      { "value": "~480", "label": ["distractor sessions", "per question"] },
-      { "value": "100% LOCAL", "label": ["your memory never leaves", "your machine"] },
-      { "value": "7 LANGUAGES", "label": ["EN · FR · ES · DE", "PT · RU · ZH"] }
+ "$comment": "Copy deck for gen-art.mjs. Edit this file, never the script. Every entry is rendered twice, once per theme, into profile/assets/gen/<name>-light.svg and -dark.svg. Text is live SVG text rendered with the visitor's system fonts, so keep display lines short: the layouts carry about 25% slack and nothing is boxed tight around a string.",
+ "hero": {
+  "wordmark": "MNEMOSYNE OS",
+  "kicker": "THE SOVEREIGN MEMORY OS",
+  "line1": "Everyone is building the intelligence.",
+  "line2": "We build the relationship.",
+  "sub": "The memory that makes an AI actually know you. On your machine. Yours to read."
+ },
+ "strip": {
+  "cells": [
+   {
+    "value": "77.1%",
+    "label": [
+     "LongMemEval-M",
+     "under a strict judge"
     ]
-  },
-
-  "bands": [
-    { "file": "band-start", "index": "01", "title": "START HERE", "meta": "three doors" },
-    { "file": "band-what", "index": "02", "title": "WHAT IT IS", "meta": "one paragraph" },
-    { "file": "band-org", "index": "03", "title": "THE ORGANIZATION", "meta": "11 public repositories" },
-    { "file": "band-cartridges", "index": "04", "title": "THE CARTRIDGES", "meta": "7 apps inside the OS" },
-    { "file": "band-psyche", "index": "05", "title": "PSYCHE", "meta": "the soul engine" },
-    { "file": "band-proof", "index": "06", "title": "THE PROOF", "meta": "every run published" },
-    { "file": "band-lab", "index": "07", "title": "THE LAB", "meta": "archived with a DOI" },
-    { "file": "band-lives", "index": "08", "title": "WHERE IT LIVES", "meta": "the official addresses" }
-  ],
-
-  "closer": {
-    "line": "Memory perceives, situates and reveals. The human governs."
-  },
-
-  "cards": [
-    { "file": "card-muse", "name": "Muse", "role": "Describe an app, get a real project on disk", "sigil": "spark" },
-    { "file": "card-reader", "name": "MnemoReader", "role": "A PDF library that reads itself aloud", "sigil": "pages" },
-    { "file": "card-archipel", "name": "MnemoArchipel", "role": "A sovereign CRM for the people in your life", "sigil": "constellation" },
-    { "file": "card-resto", "name": "MnemoResto", "role": "The restaurant that forgets no guest", "sigil": "plate" },
-    { "file": "card-oikos", "name": "Oikos", "role": "Your home, read into your own memory", "sigil": "house" },
-    { "file": "card-translator", "name": "Translator", "role": "Batch translation under your own key", "sigil": "glyphs" },
-    { "file": "card-bmad", "name": "BMAD", "role": "An idea turned into a project blueprint", "sigil": "grid" },
-    { "file": "card-yours", "name": "Yours", "role": "Build a cartridge with the MnemoForge CLI", "sigil": "plus", "cta": true }
+   },
+   {
+    "value": "~480",
+    "label": [
+     "distractor sessions",
+     "per question"
+    ]
+   },
+   {
+    "value": "100% LOCAL",
+    "label": [
+     "your memory never leaves",
+     "your machine"
+    ]
+   },
+   {
+    "value": "7 LANGUAGES",
+    "label": [
+     "EN · FR · ES · DE",
+     "PT · RU · ZH"
+    ]
+   }
   ]
+ },
+ "bands": [
+  {
+   "file": "band-start",
+   "index": "01",
+   "title": "START HERE",
+   "meta": "three doors"
+  },
+  {
+   "file": "band-what",
+   "index": "02",
+   "title": "WHAT IT IS",
+   "meta": "one paragraph"
+  },
+  {
+   "file": "band-agent",
+   "index": "03",
+   "title": "YOUR CODING AGENT",
+   "meta": "the folder nothing indexes"
+  },
+  {
+   "file": "band-org",
+   "index": "04",
+   "title": "THE ORGANIZATION",
+   "meta": "11 public repositories"
+  },
+  {
+   "file": "band-cartridges",
+   "index": "05",
+   "title": "THE CARTRIDGES",
+   "meta": "7 apps inside the OS"
+  },
+  {
+   "file": "band-psyche",
+   "index": "06",
+   "title": "PSYCHE",
+   "meta": "the soul engine"
+  },
+  {
+   "file": "band-proof",
+   "index": "07",
+   "title": "THE PROOF",
+   "meta": "every run published"
+  },
+  {
+   "file": "band-lab",
+   "index": "08",
+   "title": "THE LAB",
+   "meta": "archived with a DOI"
+  },
+  {
+   "file": "band-lives",
+   "index": "09",
+   "title": "WHERE IT LIVES",
+   "meta": "the official addresses"
+  }
+ ],
+ "closer": {
+  "line": "Memory perceives, situates and reveals. The human governs."
+ },
+ "cards": [
+  {
+   "file": "card-muse",
+   "name": "Muse",
+   "role": "Describe an app, get a real project on disk",
+   "sigil": "spark"
+  },
+  {
+   "file": "card-reader",
+   "name": "MnemoReader",
+   "role": "A PDF library that reads itself aloud",
+   "sigil": "pages"
+  },
+  {
+   "file": "card-archipel",
+   "name": "MnemoArchipel",
+   "role": "A sovereign CRM for the people in your life",
+   "sigil": "constellation"
+  },
+  {
+   "file": "card-resto",
+   "name": "MnemoResto",
+   "role": "The restaurant that forgets no guest",
+   "sigil": "plate"
+  },
+  {
+   "file": "card-oikos",
+   "name": "Oikos",
+   "role": "Your home, read into your own memory",
+   "sigil": "house"
+  },
+  {
+   "file": "card-translator",
+   "name": "Translator",
+   "role": "Batch translation under your own key",
+   "sigil": "glyphs"
+  },
+  {
+   "file": "card-bmad",
+   "name": "BMAD",
+   "role": "An idea turned into a project blueprint",
+   "sigil": "grid"
+  },
+  {
+   "file": "card-yours",
+   "name": "Yours",
+   "role": "Build a cartridge with the MnemoForge CLI",
+   "sigil": "plus",
+   "cta": true
+  }
+ ]
 }

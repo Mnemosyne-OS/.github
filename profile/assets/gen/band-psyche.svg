@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 160" width="1600" height="160" role="img" aria-label="05. PSYCHE, the soul engine">
-  <title>05. PSYCHE, the soul engine</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 160" width="1600" height="160" role="img" aria-label="06. PSYCHE, the soul engine">
+  <title>06. PSYCHE, the soul engine</title>
   <style>
     :root {
       --bg1:#16161D; --bg2:#0E0E13; --bg3:#07070A;
@@ -42,7 +42,7 @@
     <path d="M32 32 C32 18 46 18 60 32 C74 46 88 46 88 32 C88 18 74 18 60 32 C46 46 32 46 32 32 Z" fill="none" stroke="url(#flow)" stroke-width="5.848" stroke-linecap="round"
           pathLength="300" stroke-dasharray="14 286" stroke-dashoffset="-218"/>
   </g>
-  <text x="204" y="64" style="fill:var(--accent)" font-family="ui-monospace, 'Cascadia Mono', Consolas, 'SF Mono', Menlo, monospace" font-size="22" font-weight="600" letter-spacing="4">05</text>
+  <text x="204" y="64" style="fill:var(--accent)" font-family="ui-monospace, 'Cascadia Mono', Consolas, 'SF Mono', Menlo, monospace" font-size="22" font-weight="600" letter-spacing="4">06</text>
   <text x="204" y="120" style="fill:var(--ink)" font-family="'Segoe UI', Inter, system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="48" font-weight="600" letter-spacing="3">PSYCHE</text>
   <text x="1520" y="114" text-anchor="end" style="fill:var(--dim)" font-family="ui-monospace, 'Cascadia Mono', Consolas, 'SF Mono', Menlo, monospace" font-size="26">the soul engine</text>
 </svg>

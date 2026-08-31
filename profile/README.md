@@ -55,7 +55,25 @@ forgotten.
 <br/>
 </div>
 
-<h2><img width="100%" alt="03. The organization, 11 public repositories" src="assets/gen/band-org.svg"></h2>
+<h2><img width="100%" alt="03. Your coding agent, the folder nothing indexes" src="assets/gen/band-agent.svg"></h2>
+
+Claude Code, Cursor, Aider and Continue all keep what they learn in a folder whose name
+starts with a dot: the deployment step that bites, the claim that must never be made flat,
+the reason a library was picked over the obvious one. It is the half of a project that
+lives nowhere else. It is also usually gitignored, so no wiki, no search and no repository
+ever indexes it, and the next session starts without it.
+
+Point a vault at that folder and it turns into memory any model you connect can retrieve.
+What that removes is the second derivation. A conclusion your agent can look up is one it
+never reaches twice, and a session that opens already knowing the project is a session that
+opens on the work. We put no figure on that. Install it and read your own sessions.
+
+| | | |
+|---|---|---|
+| 🧠 **What your agent wrote down** | A vault watches `.claude`, `.cursor`, `.aider` or `.continue` and keeps it searchable. Needs v1.4.3 or newer, the build where dot-directories stopped being skipped. | [**Connect your agent's memory**](https://docs.mnemosyne-os.io/developers/agent-memory) |
+| 🔌 **What your agent asks back** | A Model Context Protocol server hands Claude Code, Cursor and Claude Desktop the vault tools, over a socket that never leaves your machine. | [**Connect Claude (MCP)**](https://docs.mnemosyne-os.io/connect-claude-mcp) |
+
+<h2><img width="100%" alt="04. The organization, 11 public repositories" src="assets/gen/band-org.svg"></h2>
 
 | Repository | What lives there |
 |---|---|
@@ -66,7 +84,7 @@ forgotten.
 
 The seven remaining repositories are the cartridges below.
 
-<h2><img width="100%" alt="04. The cartridges, 7 apps inside the OS" src="assets/gen/band-cartridges.svg"></h2>
+<h2><img width="100%" alt="05. The cartridges, 7 apps inside the OS" src="assets/gen/band-cartridges.svg"></h2>
 
 Small apps that run *inside* the OS and share its memory. One click from MnemoHub, the
 built-in store. Each one is a worked example of the SDK as much as a tool.
@@ -89,7 +107,7 @@ Oikos, MnemoReader and Translator are MIT. The other four carry the Mnemosyne ca
 licence: read the source, adapt it for yourself, run it inside the OS. The surfaces you
 extend are open, the memory engine is sealed.
 
-<h2><img width="100%" alt="05. Psyche, the soul engine" src="assets/gen/band-psyche.svg"></h2>
+<h2><img width="100%" alt="06. Psyche, the soul engine" src="assets/gen/band-psyche.svg"></h2>
 
 Memory is half of the relationship. Psyche is the other half: a persistent personality
 for your AI, character, voice and identity, forged by you in a guided ritual and
@@ -100,7 +118,7 @@ next.
 
 **[→ psyche.mnemosyne-os.io](https://psyche.mnemosyne-os.io)**
 
-<h2><img width="100%" alt="06. The proof, every run published" src="assets/gen/band-proof.svg"></h2>
+<h2><img width="100%" alt="07. The proof, every run published" src="assets/gen/band-proof.svg"></h2>
 
 Mnemosyne OS scores **77.1% on LongMemEval-M**, full-haystack, around 480 distractor
 sessions per question, the variant nobody cites. That figure comes from a **strict**
@@ -122,7 +140,7 @@ those raw results.
 
 </div>
 
-<h2><img width="100%" alt="07. The lab, archived with a DOI" src="assets/gen/band-lab.svg"></h2>
+<h2><img width="100%" alt="08. The lab, archived with a DOI" src="assets/gen/band-lab.svg"></h2>
 
 Research is published whole, with permanent identifiers, including the hypotheses that
 failed.
@@ -134,7 +152,7 @@ failed.
 | **Lab notes**: what we measured, and what was wrong. | [![Read](https://img.shields.io/badge/Read-mnemosyne--os.com%2Flabs-8b5cf6)](https://mnemosyne-os.com/labs) |
 | **Author record**: the ORCID behind the deposits. | [![ORCID](https://img.shields.io/badge/ORCID-0009--0009--1087--3917-A6CE39?logo=orcid&logoColor=white)](https://orcid.org/0009-0009-1087-3917) |
 
-<h2><img width="100%" alt="08. Where it lives, the official addresses" src="assets/gen/band-lives.svg"></h2>
+<h2><img width="100%" alt="09. Where it lives, the official addresses" src="assets/gen/band-lives.svg"></h2>
 
 Published by **XPACEGEMS LLC**. These are its official addresses.
 
