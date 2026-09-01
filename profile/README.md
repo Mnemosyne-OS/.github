@@ -73,18 +73,19 @@ opens on the work. We put no figure on that. Install it and read your own sessio
 | 🧠 **What your agent wrote down** | A vault watches `.claude`, `.cursor`, `.aider` or `.continue` and keeps it searchable. Needs v1.4.3 or newer, the build where dot-directories stopped being skipped. | [**Connect your agent's memory**](https://docs.mnemosyne-os.io/developers/agent-memory) |
 | 🔌 **What your agent asks back** | A Model Context Protocol server hands Claude Code, Cursor and Claude Desktop the vault tools, over a socket that never leaves your machine. | [**Connect Claude (MCP)**](https://docs.mnemosyne-os.io/connect-claude-mcp) |
 
-<h2><img width="100%" alt="04. The organization, 11 public repositories" src="assets/gen/band-org.svg"></h2>
+<h2><img width="100%" alt="04. The organization, 14 public repositories" src="assets/gen/band-org.svg"></h2>
 
 | Repository | What lives there |
 |---|---|
 | 💿 **[Mnemosyne-Neural-OS](https://github.com/Mnemosyne-OS/Mnemosyne-Neural-OS)** | The desktop app: documentation, the MnemoForge CLI, the developer SDKs, and every signed release for the three platforms. |
 | 🔬 **[MnemosyneOS---benchmarks](https://github.com/Mnemosyne-OS/MnemosyneOS---benchmarks)** | The benchmark campaigns published whole: methodology, per-question verdicts, raw run logs, and a kit that re-derives every score in front of you. CC BY 4.0. |
 | 🌐 **[mnemosyne-os.github.io](https://github.com/Mnemosyne-OS/mnemosyne-os.github.io)** | The organization on GitHub Pages: the product, the documentation, the open packages. |
+| 🧷 **[agent-memory-skill](https://github.com/Mnemosyne-OS/agent-memory-skill)** | A skill for Claude Code: it indexes your agent's own memory directory into a vault, so its notes come back by meaning instead of being loaded in full every session. MIT. |
 | 📄 **[.github](https://github.com/Mnemosyne-OS/.github)** | This page, and the generator that draws it. |
 
-The seven remaining repositories are the cartridges below.
+The nine remaining repositories are the cartridges below.
 
-<h2><img width="100%" alt="05. The cartridges, 7 apps inside the OS" src="assets/gen/band-cartridges.svg"></h2>
+<h2><img width="100%" alt="05. The cartridges, 9 apps inside the OS" src="assets/gen/band-cartridges.svg"></h2>
 
 Small apps that run *inside* the OS and share its memory. One click from MnemoHub, the
 built-in store. Each one is a worked example of the SDK as much as a tool.

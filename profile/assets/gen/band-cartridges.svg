@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 160" width="1600" height="160" role="img" aria-label="05. THE CARTRIDGES, 7 apps inside the OS">
-  <title>05. THE CARTRIDGES, 7 apps inside the OS</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 160" width="1600" height="160" role="img" aria-label="05. THE CARTRIDGES, 9 apps inside the OS">
+  <title>05. THE CARTRIDGES, 9 apps inside the OS</title>
   <style>
     :root {
       --bg1:#16161D; --bg2:#0E0E13; --bg3:#07070A;
@@ -44,5 +44,5 @@
   </g>
   <text x="204" y="64" style="fill:var(--accent)" font-family="ui-monospace, 'Cascadia Mono', Consolas, 'SF Mono', Menlo, monospace" font-size="22" font-weight="600" letter-spacing="4">05</text>
   <text x="204" y="120" style="fill:var(--ink)" font-family="'Segoe UI', Inter, system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="48" font-weight="600" letter-spacing="3">THE CARTRIDGES</text>
-  <text x="1520" y="114" text-anchor="end" style="fill:var(--dim)" font-family="ui-monospace, 'Cascadia Mono', Consolas, 'SF Mono', Menlo, monospace" font-size="26">7 apps inside the OS</text>
+  <text x="1520" y="114" text-anchor="end" style="fill:var(--dim)" font-family="ui-monospace, 'Cascadia Mono', Consolas, 'SF Mono', Menlo, monospace" font-size="26">9 apps inside the OS</text>
 </svg>
