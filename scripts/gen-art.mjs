@@ -285,6 +285,12 @@ function sigil(kind) {
       return `<g ${s}><rect x="-28" y="-24" width="34" height="28" rx="4"/><rect x="-6" y="-4" width="34" height="28" rx="4"/></g>`;
     case 'grid':
       return `<g ${s}><rect x="-26" y="-26" width="22" height="22" rx="2"/><rect x="4" y="-26" width="22" height="22" rx="2"/><rect x="-26" y="4" width="22" height="22" rx="2"/><rect x="4" y="4" width="22" height="22" rx="2"/></g>`;
+    // Ariadne's thread: the way into the labyrinth, and the way back out.
+    case 'labyrinth':
+      return `<g ${s}><path d="M0 28 L-26 28 L-26 -26 L26 -26 L26 18 L-16 18 L-16 -16 L16 -16 L16 8 L-6 8 L-6 -6 L6 -6"/></g>`;
+    // A cockpit reads as a dial: the thing you watch while something else works.
+    case 'gauge':
+      return `<g ${s}><path d="M-28 14 A 28 28 0 0 1 28 14"/><path d="M-20 -6 L-24 -10 M0 -14 L0 -20 M20 -6 L24 -10"/><path d="M0 14 L14 -8"/><circle cx="0" cy="14" r="4.5"/></g>`;
     case 'plus':
       return `<g ${s}><circle cx="0" cy="0" r="25" stroke-dasharray="7 6"/><path d="M0 -12 L0 12 M-12 0 L12 0"/></g>`;
     default:

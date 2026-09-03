@@ -142,6 +142,18 @@
    "sigil": "grid"
   },
   {
+   "file": "card-ariadne",
+   "name": "Ariadne",
+   "role": "Every coding session, and the files it touched",
+   "sigil": "labyrinth"
+  },
+  {
+   "file": "card-hermes",
+   "name": "MnemoHermes",
+   "role": "A control room for your local agent",
+   "sigil": "gauge"
+  },
+  {
    "file": "card-yours",
    "name": "Yours",
    "role": "Build a cartridge with the MnemoForge CLI",

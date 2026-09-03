@@ -87,26 +87,29 @@ The nine remaining repositories are the cartridges below.
 
 <h2><img width="100%" alt="05. The cartridges, 9 apps inside the OS" src="assets/gen/band-cartridges.svg"></h2>
 
-Small apps that run *inside* the OS and share its memory. One click from MnemoHub, the
-built-in store. Each one is a worked example of the SDK as much as a tool.
+Small apps that run *inside* the OS and share its memory. Most are one click from
+MnemoHub, the built-in store; Ariadne and MnemoHermes install from their own URL. Each
+one is a worked example of the SDK as much as a tool.
 
 <div align="center">
 
-<a href="https://github.com/Mnemosyne-OS/Muse"><img width="24%" alt="Muse: describe an app, get a real project on disk" src="assets/gen/card-muse.svg"></a>
-<a href="https://github.com/Mnemosyne-OS/MnemoReader---MnemosyneOS"><img width="24%" alt="MnemoReader: a PDF library that reads itself aloud" src="assets/gen/card-reader.svg"></a>
-<a href="https://github.com/Mnemosyne-OS/MnemoArchipel---Mnemosyne-OS"><img width="24%" alt="MnemoArchipel: a sovereign CRM for the people in your life" src="assets/gen/card-archipel.svg"></a>
-<a href="https://github.com/Mnemosyne-OS/MnemoResto---MnemosyneOS"><img width="24%" alt="MnemoResto: the restaurant that forgets no guest" src="assets/gen/card-resto.svg"></a>
+<a href="https://github.com/Mnemosyne-OS/Muse"><img width="19%" alt="Muse: describe an app, get a real project on disk" src="assets/gen/card-muse.svg"></a>
+<a href="https://github.com/Mnemosyne-OS/MnemoReader---MnemosyneOS"><img width="19%" alt="MnemoReader: a PDF library that reads itself aloud" src="assets/gen/card-reader.svg"></a>
+<a href="https://github.com/Mnemosyne-OS/MnemoArchipel---Mnemosyne-OS"><img width="19%" alt="MnemoArchipel: a sovereign CRM for the people in your life" src="assets/gen/card-archipel.svg"></a>
+<a href="https://github.com/Mnemosyne-OS/MnemoResto---MnemosyneOS"><img width="19%" alt="MnemoResto: the restaurant that forgets no guest" src="assets/gen/card-resto.svg"></a>
+<a href="https://github.com/Mnemosyne-OS/Oikos"><img width="19%" alt="Oikos: your home, read into your own memory" src="assets/gen/card-oikos.svg"></a>
 
-<a href="https://github.com/Mnemosyne-OS/Oikos"><img width="24%" alt="Oikos: your home, read into your own memory" src="assets/gen/card-oikos.svg"></a>
-<a href="https://github.com/Mnemosyne-OS/mnemosyne_OS-translator"><img width="24%" alt="Translator: batch translation under your own key" src="assets/gen/card-translator.svg"></a>
-<a href="https://github.com/Mnemosyne-OS/mnemosyne_OS-bmad"><img width="24%" alt="BMAD: an idea turned into a project blueprint" src="assets/gen/card-bmad.svg"></a>
-<a href="https://github.com/Mnemosyne-OS/Mnemosyne-Neural-OS#readme"><img width="24%" alt="Yours: build a cartridge with the MnemoForge CLI" src="assets/gen/card-yours.svg"></a>
+<a href="https://github.com/Mnemosyne-OS/mnemosyne_OS-translator"><img width="19%" alt="Translator: batch translation under your own key" src="assets/gen/card-translator.svg"></a>
+<a href="https://github.com/Mnemosyne-OS/mnemosyne_OS-bmad"><img width="19%" alt="BMAD: an idea turned into a project blueprint" src="assets/gen/card-bmad.svg"></a>
+<a href="https://github.com/Mnemosyne-OS/Ariadne"><img width="19%" alt="Ariadne: every coding session, and the files it touched" src="assets/gen/card-ariadne.svg"></a>
+<a href="https://github.com/Mnemosyne-OS/MnemoHermes"><img width="19%" alt="MnemoHermes: a control room for your local agent" src="assets/gen/card-hermes.svg"></a>
+<a href="https://github.com/Mnemosyne-OS/Mnemosyne-Neural-OS#readme"><img width="19%" alt="Yours: build a cartridge with the MnemoForge CLI" src="assets/gen/card-yours.svg"></a>
 
 </div>
 
-Oikos, MnemoReader and Translator are MIT. The other four carry the Mnemosyne cartridge
-licence: read the source, adapt it for yourself, run it inside the OS. The surfaces you
-extend are open, the memory engine is sealed.
+Oikos, MnemoReader, Translator, Ariadne and MnemoHermes are MIT. The other four carry the
+Mnemosyne cartridge licence: read the source, adapt it for yourself, run it inside the OS.
+The surfaces you extend are open, the memory engine is sealed.
 
 <h2><img width="100%" alt="06. Psyche, the soul engine" src="assets/gen/band-psyche.svg"></h2>
 

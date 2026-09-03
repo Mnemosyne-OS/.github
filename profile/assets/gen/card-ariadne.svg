@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300" role="img" aria-label="Ariadne: Every coding session, and the files it touched">
+  <title>Ariadne: Every coding session, and the files it touched</title>
+  <style>
+    :root {
+      --bg1:#16161D; --bg2:#0E0E13; --bg3:#07070A;
+      --bloom:#7C4DFF; --bloomA:0.26; --tint:#A98BFF; --tintA:0.10;
+      --ink:#F4F1FA; --dim:#8E88A0; --accent:#A98BFF; --kicker:#A98BFF;
+      --hair:rgba(255,255,255,0.08); --panel:rgba(255,255,255,0.04); --edge:rgba(255,255,255,0.10);
+      --stars:0.16;
+      --m1:#7B5EA7; --m2:#A98BFF; --m3:#E4D6FF; --casing:#291F49; --glow:0.5;
+    }
+  </style>
+  <defs><linearGradient id="plate" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0%" style="stop-color:var(--bg1)"/><stop offset="55%" style="stop-color:var(--bg2)"/><stop offset="100%" style="stop-color:var(--bg3)"/>
+    </linearGradient>
+    <radialGradient id="bloom" cx="50%" cy="50%" r="46%">
+      <stop offset="0%" style="stop-color:var(--bloom);stop-opacity:var(--bloomA)"/>
+      <stop offset="55%" style="stop-color:var(--bloom);stop-opacity:calc(var(--bloomA) * 0.27)"/>
+      <stop offset="100%" style="stop-color:var(--bloom);stop-opacity:0"/>
+    </radialGradient>
+    <radialGradient id="tint" cx="84%" cy="14%" r="46%">
+      <stop offset="0%" style="stop-color:var(--tint);stop-opacity:var(--tintA)"/>
+      <stop offset="100%" style="stop-color:var(--tint);stop-opacity:0"/>
+    </radialGradient></defs>
+  <rect width="400" height="300" fill="url(#plate)"/>
+  <rect width="400" height="300" fill="url(#bloom)"/>
+  <rect width="400" height="300" fill="url(#tint)"/>
+  <rect x="4" y="4" width="388" height="288" rx="6" style="fill:var(--panel);stroke:var(--edge)" stroke-width="1.5"/>
+  <g transform="translate(200 110) scale(1.4)"><g fill="none" style="stroke:var(--accent)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M0 28 L-26 28 L-26 -26 L26 -26 L26 18 L-16 18 L-16 -16 L16 -16 L16 8 L-6 8 L-6 -6 L6 -6"/></g></g>
+  <text x="200" y="212" text-anchor="middle" style="fill:var(--ink)" font-family="'Segoe UI', Inter, system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="34" font-weight="600">Ariadne</text>
+  <text x="200" y="250" text-anchor="middle" style="fill:var(--dim)" font-family="'Segoe UI', Inter, system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="22">Every coding session,</text>
+  <text x="200" y="278" text-anchor="middle" style="fill:var(--dim)" font-family="'Segoe UI', Inter, system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="22">and the files it touched</text>
+</svg>
