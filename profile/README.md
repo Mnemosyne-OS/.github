@@ -181,6 +181,14 @@ The stories behind the numbers are on [the blog](https://mnemosyne-os.io/blog):
 
 <br/>
 
+[![Star the repository](https://img.shields.io/github/stars/Mnemosyne-OS/Mnemosyne-Neural-OS?style=for-the-badge&logo=github&label=Star%20the%20repository&labelColor=0b1120&color=8b5cf6)](https://github.com/Mnemosyne-OS/Mnemosyne-Neural-OS)
+
+Every figure on this page is one we published ourselves. That badge is the exception:
+GitHub counts it. A star also files the repository under your own account and reaches
+the people who follow you.
+
+<br/>
+
 <img width="100%" alt="Memory perceives, situates and reveals. The human governs." src="assets/gen/closer.svg">
 
 <br/>
