@@ -4,7 +4,7 @@
 
 <br/><br/>
 
-[![Download Infinity Edition](https://img.shields.io/badge/Download-Infinity_Edition_v1.4.3-111827?style=for-the-badge&logo=github)](https://github.com/Mnemosyne-OS/Mnemosyne-Neural-OS/releases/latest)
+[![Download Infinity Edition](https://img.shields.io/badge/Download-Infinity_Edition_v1.4.4-111827?style=for-the-badge&logo=github)](https://github.com/Mnemosyne-OS/Mnemosyne-Neural-OS/releases/latest)
 [![Documentation](https://img.shields.io/badge/📖_Read_the_guide-docs.mnemosyne--os.io-8b5cf6?style=for-the-badge&labelColor=0b1120)](https://docs.mnemosyne-os.io)
 [![Audit the benchmark](https://img.shields.io/badge/🔍_Audit_the_77.1%25_strict-yourself-33ffd6?style=for-the-badge&labelColor=0b1120)](https://mnemosyne-os.github.io/MnemosyneOS---benchmarks/verification-kit/)
 
@@ -22,7 +22,7 @@
 
 | | | |
 |---|---|---|
-| 💿 **Use it** | Install the desktop OS, point it at your files, add cartridges from the built-in store. Windows, macOS, Linux. | [**Download v1.4.3**](https://github.com/Mnemosyne-OS/Mnemosyne-Neural-OS/releases/latest) · [User guide](https://docs.mnemosyne-os.io) |
+| 💿 **Use it** | Install the desktop OS, point it at your files, add cartridges from the built-in store. Windows, macOS, Linux. | [**Download v1.4.4**](https://github.com/Mnemosyne-OS/Mnemosyne-Neural-OS/releases/latest) · [User guide](https://docs.mnemosyne-os.io) |
 | 🛠️ **Build on it** | The MnemoForge CLI, the developer SDKs, and seven cartridges whose full source sits in this organization. | [**The SDK**](https://github.com/Mnemosyne-OS/Mnemosyne-Neural-OS) · [Packages](https://mnemosyne-os.io/packages) |
 | 🔬 **Check the claim** | 77.1% on LongMemEval-M under a strict judge, published with every question, every retrieved chunk and every verdict. | [**Open the verification kit**](https://mnemosyne-os.github.io/MnemosyneOS---benchmarks/verification-kit/) |
 
