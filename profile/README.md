@@ -26,6 +26,19 @@
 | 🛠️ **Build on it** | The MnemoForge CLI, the developer SDKs, and seven cartridges whose full source sits in this organization. | [**The SDK**](https://github.com/Mnemosyne-OS/Mnemosyne-Neural-OS) · [Packages](https://mnemosyne-os.io/packages) |
 | 🔬 **Check the claim** | 77.1% on LongMemEval-M under a strict judge, published with every question, every retrieved chunk and every verdict. | [**Open the verification kit**](https://mnemosyne-os.github.io/MnemosyneOS---benchmarks/verification-kit/) |
 
+> [!IMPORTANT]
+> **🤖 New in 1.6.0: MnemoHermes, your memory on Telegram and by voice (beta).**
+> MnemoHermes installs [Hermes Agent](https://github.com/NousResearch/hermes-agent)
+> with one button and connects it to your vaults. Create your own Telegram bot and ask
+> your memory from your phone, typed or by voice note. In the app, say "ask Hermes to …"
+> and the orb hands it the task.
+>
+> **[→ See how it works: mnemosyne-os.io/hermes](https://mnemosyne-os.io/hermes)** · [The cartridge on GitHub](https://github.com/Mnemosyne-OS/MnemoHermes)
+
+<div align="center">
+<a href="https://mnemosyne-os.io/hermes"><img src="https://raw.githubusercontent.com/Mnemosyne-OS/MnemoHermes/main/docs/tour.gif" width="80%" alt="The MnemoHermes cockpit opening from the Mnemosyne OS dock, then its Tasks, Agents, Tools, Skills, Memory inbox and Settings tabs" /></a>
+</div>
+
 <div align="center">
 
 <img width="100%" alt="77.1% on LongMemEval-M under a strict judge. Around 480 distractor sessions per question. 100% local, your memory never leaves your machine. 7 languages: EN, FR, ES, DE, PT, RU, ZH." src="assets/gen/strip-numbers.svg">
