@@ -12,8 +12,8 @@
    {
     "value": "77.1%",
     "label": [
-     "LongMemEval-M",
-     "under a strict judge"
+     "unseen LongMemEval-M",
+     "local search, cloud answers"
     ]
    },
    {

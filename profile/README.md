@@ -6,7 +6,7 @@
 
 [![Download Infinity Edition](https://img.shields.io/badge/Download-Infinity_Edition_v1.6.0-111827?style=for-the-badge&logo=github)](https://github.com/Mnemosyne-OS/Mnemosyne-Neural-OS/releases/latest)
 [![Documentation](https://img.shields.io/badge/📖_Read_the_guide-docs.mnemosyne--os.io-8b5cf6?style=for-the-badge&labelColor=0b1120)](https://docs.mnemosyne-os.io)
-[![Audit the benchmark](https://img.shields.io/badge/🔍_Audit_the_77.1%25_strict-yourself-33ffd6?style=for-the-badge&labelColor=0b1120)](https://mnemosyne-os.github.io/MnemosyneOS---benchmarks/verification-kit/)
+[![Audit the benchmark](https://img.shields.io/badge/🔍_Audit_the_77.1%25-yourself-33ffd6?style=for-the-badge&labelColor=0b1120)](https://github.com/Mnemosyne-OS/MnemosyneOS---benchmarks/tree/main/longmemeval-rerun-2026-10)
 
 <br/>
 
@@ -24,7 +24,7 @@
 |---|---|---|
 | 💿 **Use it** | Install the desktop OS, point it at your files, add cartridges from the built-in store. Windows, macOS, Linux. | [**Download v1.6.0**](https://github.com/Mnemosyne-OS/Mnemosyne-Neural-OS/releases/latest) · [User guide](https://docs.mnemosyne-os.io) |
 | 🛠️ **Build on it** | The MnemoForge CLI, the developer SDKs, and seven cartridges whose full source sits in this organization. | [**The SDK**](https://github.com/Mnemosyne-OS/Mnemosyne-Neural-OS) · [Packages](https://mnemosyne-os.io/packages) |
-| 🔬 **Check the claim** | 77.1% on LongMemEval-M under a strict judge, published with every question, every retrieved chunk and every verdict. | [**Open the verification kit**](https://mnemosyne-os.github.io/MnemosyneOS---benchmarks/verification-kit/) |
+| 🔬 **Check the claim** | 77.1% on LongMemEval-M questions the engine had never seen, official judge, protocol published before the run. Every answer and every verdict is published. | [**Open the verification kit**](https://mnemosyne-os.github.io/MnemosyneOS---benchmarks/verification-kit/) |
 
 > [!IMPORTANT]
 > **🤖 New in 1.6.0: MnemoHermes, your memory on Telegram and by voice (beta).**
@@ -41,7 +41,7 @@
 
 <div align="center">
 
-<img width="100%" alt="77.1% on LongMemEval-M under a strict judge. Around 480 distractor sessions per question. 100% local, your memory never leaves your machine. 7 languages: EN, FR, ES, DE, PT, RU, ZH." src="assets/gen/strip-numbers.svg">
+<img width="100%" alt="77.1% on unseen LongMemEval-M questions, local search and cloud answers. Around 480 distractor sessions per question. 100% local, your memory never leaves your machine. 7 languages: EN, FR, ES, DE, PT, RU, ZH." src="assets/gen/strip-numbers.svg">
 
 </div>
 
@@ -138,14 +138,19 @@ next.
 <h2><img width="100%" alt="07. The proof, every run published" src="assets/gen/band-proof.svg"></h2>
 
 Mnemosyne OS scores **77.1% on LongMemEval-M**, full-haystack, around 480 distractor
-sessions per question, the variant nobody cites. That figure comes from a **strict**
-judge, measured twice, verdict for verdict, and confirmed on 48 held-out questions with
-zero retrieval regressions.
+sessions per question, on 48 questions the engine had never seen. The official
+LongMemEval judge graded it, and the protocol was published before the run. On the
+48 questions used to tune the engine, the strict judge gives **85.4%**.
 
-Under the **flexible** judge we used in July, the same build measures **81.3%**, and
-July's own published floor of **72.9%** stays archived and citable exactly as it went
-out. Two graders are two instruments, so their scores are reported side by side and
-never chained into a progression. A number we improved on is not a number we delete.
+These scores come from the hybrid mode: embeddings and search ran locally, and a
+cloud model, gemini-3.8-flash, wrote the answers. Mnemosyne OS also runs fully
+local, with a model on your machine.
+
+In September an outside audit found a wrong verdict in our August result. The
+[erratum](https://github.com/Mnemosyne-OS/MnemosyneOS---benchmarks/blob/main/ERRATUM.md) corrects it to **72.9%** under the strict judge, and we ran the
+whole benchmark again ([every answer](https://github.com/Mnemosyne-OS/MnemosyneOS---benchmarks/tree/main/longmemeval-rerun-2026-10)). The reader, the engine and the
+judges changed between these runs, so the figures sit side by side and never chain
+into a progression.
 
 Anyone can publish a percentage. We publish the ledger underneath it: every question,
 every retrieved chunk, every judgement, plus a script that re-derives each score from
