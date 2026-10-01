@@ -24,7 +24,7 @@
 |---|---|---|
 | 💿 **Use it** | Install the desktop OS, point it at your files, add cartridges from the built-in store. Windows, macOS, Linux. | [**Download v1.6.0**](https://github.com/Mnemosyne-OS/Mnemosyne-Neural-OS/releases/latest) · [User guide](https://docs.mnemosyne-os.io) |
 | 🛠️ **Build on it** | The MnemoForge CLI, the developer SDKs, and seven cartridges whose full source sits in this organization. | [**The SDK**](https://github.com/Mnemosyne-OS/Mnemosyne-Neural-OS) · [Packages](https://mnemosyne-os.io/packages) |
-| 🔬 **Check the claim** | 77.1% on LongMemEval-M questions the engine had never seen, official judge, protocol published before the run. Every answer and every verdict is published. | [**Open the verification kit**](https://mnemosyne-os.github.io/MnemosyneOS---benchmarks/verification-kit/) |
+| 🔬 **Check the claim** | 77.1% on LongMemEval-M holdout questions never used to tune the engine, official judge, protocol published before the run. Every answer and every verdict is published. | [**Open the verification kit**](https://mnemosyne-os.github.io/MnemosyneOS---benchmarks/verification-kit/) |
 
 > [!IMPORTANT]
 > **🤖 New in 1.6.0: MnemoHermes, your memory on Telegram and by voice (beta).**
@@ -41,7 +41,7 @@
 
 <div align="center">
 
-<img width="100%" alt="77.1% on unseen LongMemEval-M questions, local search and cloud answers. Around 480 distractor sessions per question. 100% local, your memory never leaves your machine. 7 languages: EN, FR, ES, DE, PT, RU, ZH." src="assets/gen/strip-numbers.svg">
+<img width="100%" alt="77.1% on holdout LongMemEval-M questions, local search and cloud answers. Around 480 distractor sessions per question. 100% local, your memory never leaves your machine. 7 languages: EN, FR, ES, DE, PT, RU, ZH." src="assets/gen/strip-numbers.svg">
 
 </div>
 
@@ -138,7 +138,7 @@ next.
 <h2><img width="100%" alt="07. The proof, every run published" src="assets/gen/band-proof.svg"></h2>
 
 Mnemosyne OS scores **77.1% on LongMemEval-M**, full-haystack, around 480 distractor
-sessions per question, on 48 questions the engine had never seen. The official
+sessions per question, on 48 holdout questions never used to tune the engine. The official
 LongMemEval judge graded it, and the protocol was published before the run. On the
 48 questions used to tune the engine, the strict judge gives **85.4%**.
 

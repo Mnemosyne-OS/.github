@@ -12,7 +12,7 @@
    {
     "value": "77.1%",
     "label": [
-     "unseen LongMemEval-M",
+     "holdout LongMemEval-M",
      "local search, cloud answers"
     ]
    },
