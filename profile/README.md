@@ -146,7 +146,9 @@ These scores come from the hybrid mode: embeddings and search ran locally, and a
 cloud model, gemini-3.8-flash, wrote the answers. Mnemosyne OS also runs fully
 local, with a model on your machine.
 
-In September an outside audit found a wrong verdict in our August result. The
+In September an [outside audit by Julien Gelee](https://github.com/Mnemosyne-OS/Mnemosyne-Neural-OS/pull/47) found a wrong verdict in our
+August result. It covered the published files, ledgers and arithmetic, and did
+not evaluate the product or the closed engine. The
 [erratum](https://github.com/Mnemosyne-OS/MnemosyneOS---benchmarks/blob/main/ERRATUM.md) corrects it to **72.9%** under the strict judge, and we ran the
 whole benchmark again ([every answer](https://github.com/Mnemosyne-OS/MnemosyneOS---benchmarks/tree/main/longmemeval-rerun-2026-10)). The reader, the engine and the
 judges changed between these runs, so the figures sit side by side and never chain
