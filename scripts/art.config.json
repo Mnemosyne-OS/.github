@@ -41,34 +41,34 @@
  },
  "bands": [
   {
-   "file": "band-start",
+   "file": "band-build",
    "index": "01",
-   "title": "START HERE",
-   "meta": "three doors"
+   "title": "WHAT WE BUILD",
+   "meta": "an assistant that remembers you"
   },
   {
-   "file": "band-what",
+   "file": "band-goal",
    "index": "02",
-   "title": "WHAT IT IS",
-   "meta": "one paragraph"
+   "title": "THE GOAL",
+   "meta": "the relationship layer"
   },
   {
-   "file": "band-agent",
+   "file": "band-today",
    "index": "03",
-   "title": "YOUR CODING AGENT",
-   "meta": "the folder nothing indexes"
+   "title": "TODAY",
+   "meta": "what it does now"
+  },
+  {
+   "file": "band-memory",
+   "index": "04",
+   "title": "MEMORY CARTRIDGES",
+   "meta": "public knowledge, in your memory"
   },
   {
    "file": "band-org",
-   "index": "04",
-   "title": "THE ORGANIZATION",
-   "meta": "14 public repositories"
-  },
-  {
-   "file": "band-cartridges",
    "index": "05",
-   "title": "THE CARTRIDGES",
-   "meta": "9 apps inside the OS"
+   "title": "THE ORGANIZATION",
+   "meta": "22 public repositories"
   },
   {
    "file": "band-psyche",

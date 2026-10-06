@@ -4,9 +4,8 @@
 
 <br/><br/>
 
-[![Download Infinity Edition](https://img.shields.io/badge/Download-Infinity_Edition_v1.7.0-111827?style=for-the-badge&logo=github)](https://github.com/Mnemosyne-OS/Mnemosyne-Neural-OS/releases/latest)
+[![Download Mnemosyne OS](https://img.shields.io/badge/Download-Mnemosyne_OS_v1.7.0-111827?style=for-the-badge&logo=github)](https://github.com/Mnemosyne-OS/Mnemosyne-Neural-OS/releases/latest)
 [![Documentation](https://img.shields.io/badge/📖_Read_the_guide-docs.mnemosyne--os.io-8b5cf6?style=for-the-badge&labelColor=0b1120)](https://docs.mnemosyne-os.io)
-[![Audit the benchmark](https://img.shields.io/badge/🔍_Audit_the_77.1%25-yourself-33ffd6?style=for-the-badge&labelColor=0b1120)](https://github.com/Mnemosyne-OS/MnemosyneOS---benchmarks/tree/main/longmemeval-rerun-2026-10)
 
 <br/>
 
@@ -18,47 +17,17 @@
 
 </div>
 
-<h2><img width="100%" alt="01. Start here, three doors" src="assets/gen/band-start.svg"></h2>
+<h2><img width="100%" alt="01. What we build, an assistant that remembers you" src="assets/gen/band-build.svg"></h2>
 
-| | | |
-|---|---|---|
-| 💿 **Use it** | Install the desktop OS, point it at your files, add cartridges from the built-in store. Windows, macOS, Linux. | [**Download v1.7.0**](https://github.com/Mnemosyne-OS/Mnemosyne-Neural-OS/releases/latest) · [User guide](https://docs.mnemosyne-os.io) |
-| 🛠️ **Build on it** | The MnemoForge CLI, the developer SDKs, and seven cartridges whose full source sits in this organization. | [**The SDK**](https://github.com/Mnemosyne-OS/Mnemosyne-Neural-OS) · [Packages](https://mnemosyne-os.io/packages) |
-| 🔬 **Check the claim** | 77.1% on LongMemEval-M holdout questions never used to tune the engine, official judge, protocol published before the run. Every answer and every verdict is published. | [**Open the verification kit**](https://mnemosyne-os.github.io/MnemosyneOS---benchmarks/verification-kit/) |
+Mnemosyne OS is an AI assistant that remembers you. It runs on your own machine.
 
-> [!IMPORTANT]
-> **🤖 New in 1.6.0: MnemoHermes, your memory on Telegram and by voice (beta).**
-> MnemoHermes installs [Hermes Agent](https://github.com/NousResearch/hermes-agent)
-> with one button and connects it to your vaults. Create your own Telegram bot and ask
-> your memory from your phone, typed or by voice note. In the app, say "ask Hermes to …"
-> and the orb hands it the task.
->
-> **[→ See how it works: mnemosyne-os.io/hermes](https://mnemosyne-os.io/hermes)** · [The cartridge on GitHub](https://github.com/Mnemosyne-OS/MnemoHermes)
+It reads only the folders you choose to open to it, and keeps them as memory any model
+you connect can draw on. Six months later it still knows your projects, your decisions
+and your sources. Over time it learns how you work and adapts to you.
 
-<div align="center">
-<a href="https://mnemosyne-os.io/hermes"><img src="https://raw.githubusercontent.com/Mnemosyne-OS/MnemoHermes/main/docs/tour.gif" width="80%" alt="The MnemoHermes cockpit opening from the Mnemosyne OS dock, then its Tasks, Agents, Tools, Skills, Memory inbox and Settings tabs" /></a>
-</div>
-
-<div align="center">
-
-<img width="100%" alt="77.1% on holdout LongMemEval-M questions, local search and cloud answers. Around 480 distractor sessions per question. 100% local, your memory never leaves your machine. 7 languages: EN, FR, ES, DE, PT, RU, ZH." src="assets/gen/strip-numbers.svg">
-
-</div>
-
-<h2><img width="100%" alt="02. What it is, one paragraph" src="assets/gen/band-what.svg"></h2>
-
-Mem0, Zep and Letta hand *an agent* a memory service you wire into a cloud stack.
-Mnemosyne OS is a desktop application, and the customer is you. It installs on your
-machine, reads the files and conversations you point it at, and keeps them as durable,
-searchable memory that any model you connect can draw on. Nothing is uploaded to run
-it. Vaults partition memory by domain so nothing bleeds between them, retrieval ranks
-your vault twice (by meaning and by exact words) and fuses the two rankings, a
-navigable neural map shows what connects to what, and a dream state revisits old
-material while you are away and writes down what it noticed. Encryption at rest is
-there, armed by you. A human decides what is remembered, what is surfaced, and what is
-forgotten.
-
-**[→ The full tour, in the repository README](https://github.com/Mnemosyne-OS/Mnemosyne-Neural-OS#readme)**
+It is also the control room for your AI agents. Your coding agents show up as cards on
+your desktop, your assistant answers you on Telegram, and nothing risky runs without
+your approval.
 
 <div align="center">
 <br/>
@@ -68,70 +37,117 @@ forgotten.
 <br/>
 </div>
 
-<h2><img width="100%" alt="03. Your coding agent, the folder nothing indexes" src="assets/gen/band-agent.svg"></h2>
+<h2><img width="100%" alt="02. The goal, the relationship layer" src="assets/gen/band-goal.svg"></h2>
 
-Claude Code, Cursor, Aider and Continue all keep what they learn in a folder whose name
-starts with a dot: the deployment step that bites, the claim that must never be made flat,
-the reason a library was picked over the obvious one. It is the half of a project that
-lives nowhere else. It is also usually gitignored, so no wiki, no search and no repository
-ever indexes it, and the next session starts without it.
+Every AI company is building the intelligence. We are building the relationship: an
+assistant that knows a person, stays with them and helps with each of their projects.
 
-Point a vault at that folder and it turns into memory any model you connect can retrieve.
-What that removes is the second derivation. A conclusion your agent can look up is one it
-never reaches twice, and a session that opens already knowing the project is a session that
-opens on the work. We put no figure on that. Install it and read your own sessions.
+The relationship has two halves.
 
-| | | |
-|---|---|---|
-| 🧠 **What your agent wrote down** | A vault watches `.claude`, `.cursor`, `.aider` or `.continue` and keeps it searchable. Needs v1.4.3 or newer, the build where dot-directories stopped being skipped. | [**Connect your agent's memory**](https://docs.mnemosyne-os.io/developers/agent-memory) |
-| 🔌 **What your agent asks back** | A Model Context Protocol server hands Claude Code, Cursor and Claude Desktop the vault tools, over a socket that never leaves your machine. | [**Connect Claude (MCP)**](https://docs.mnemosyne-os.io/connect-claude-mcp) |
+**Memory, the half we have built and measured.** Your files and conversations become
+memory, organised into vaults, retrieved by meaning and by exact words, with the
+sources shown. This half has a benchmark, and every verdict is published (section 07).
 
-<h2><img width="100%" alt="04. The organization, 14 public repositories" src="assets/gen/band-org.svg"></h2>
+**The way of being with a human, the half we are researching.** A relationship also
+depends on how the assistant answers. Mnemosyne OS pushes back on your ideas and your
+projects, like a partner who challenges you. One user told us its answers unsettled
+her, in a good way. A memory benchmark cannot measure this half, so we study it
+differently: from the conversations people choose to share with us.
+
+If its way of answering surprised you, we want to read about it:
+[dev@mnemosyne-os.io](mailto:dev@mnemosyne-os.io).
+
+**[→ Why the relationship layer](https://github.com/Mnemosyne-OS/Mnemosyne-Neural-OS/blob/main/doc/WHY.md)**
+
+<h2><img width="100%" alt="03. Today, what it does now" src="assets/gen/band-today.svg"></h2>
+
+| | |
+|---|---|
+| 🛩️ **A control room for your agents** | Your coding agents appear as cards on your desktop, through [herdr](https://github.com/herdrdev/herdr). You see which one is working and which one waits, and you reply from its card. Hermes Agent installs in one click and answers you on Telegram. |
+| 🖐️ **JARVIS mode** | You talk to the orb and it runs your commands. Through your webcam, you move windows with your hands (beta). With a local model, everything runs on your machine and costs $0 in tokens. |
+| 🧑‍💻 **Developers** | Connect your memory to Claude Code, Cursor or any MCP client. Your agents start with your code, your decisions and your notes. |
+| 🎓 **Students** | Import a course as a PDF, a Word file or a photo. Melete turns it into a mind map, flashcards and a quiz. |
+| 🔬 **Researchers** | Every answer cites its sources, and a second pass checks each sentence against them. |
+| ⚖️ **Lawyers** | Cut the internet and question your case files with the best local models. Nothing leaves your machine. |
+| 🕸️ **Several machines** | Pair your computers on your local network, see every machine's agents on one desktop, and give each computer a role. |
+
+Mnemosyne OS runs from 8 GB of RAM on Windows, macOS and Linux, and adapts to your
+hardware at install time. With 40 GB of RAM you can run everything locally, with the
+largest models.
+
+<h2><img width="100%" alt="04. Memory cartridges, public knowledge in your memory" src="assets/gen/band-memory.svg"></h2>
+
+A memory cartridge fetches public knowledge from its official source and stores it in
+your memory. You choose the source and the size, then you question it from the chat
+like your own notes. Every text keeps its source, its date and its licence.
+
+| Cartridge | What it brings into your memory |
+|---|---|
+| ⚖️ **[MnemoLaw](https://github.com/Mnemosyne-OS/MnemoLaw)** | The laws of your city or your country: US city codes, national codes, EU regulations and international treaties, quoted word for word. |
+| 🩺 **MnemoHealth** | Medical texts from public sources: rare diseases (Orphanet), mental health (NIMH), WHO fact sheets and open-access research articles. |
+| 🔭 **MnemoScience** | Textbooks and science texts by field: physics, chemistry, biology, mathematics, astronomy and the history of science. |
+| 🕰️ **MnemoClio** | The history of 197 countries on a timeline you can move, from five centuries down to five years. |
+| 🛡️ **MnemoVulns** | Known vulnerabilities in your projects' dependencies, each with the version that fixes it. |
+| ™️ **MnemoMarks** | Trademark registers on your machine. Before you name your project, check the marks already registered. |
+
+These are the first memory cartridges. Many more are on the way.
+
+<h2><img width="100%" alt="05. The organization, 22 public repositories" src="assets/gen/band-org.svg"></h2>
+
+**The OS**
 
 | Repository | What lives there |
 |---|---|
 | 💿 **[Mnemosyne-Neural-OS](https://github.com/Mnemosyne-OS/Mnemosyne-Neural-OS)** | The desktop app: documentation, the MnemoForge CLI, the developer SDKs, and every signed release for the three platforms. |
-| 🔬 **[MnemosyneOS---benchmarks](https://github.com/Mnemosyne-OS/MnemosyneOS---benchmarks)** | The benchmark campaigns published whole: methodology, per-question verdicts, raw run logs, and a kit that re-derives every score in front of you. CC BY 4.0. |
-| 🌐 **[mnemosyne-os.github.io](https://github.com/Mnemosyne-OS/mnemosyne-os.github.io)** | The organization on GitHub Pages: the product, the documentation, the open packages. |
-| 🧷 **[agent-memory-skill](https://github.com/Mnemosyne-OS/agent-memory-skill)** | A skill for Claude Code: it indexes your agent's own memory directory into a vault, so its notes come back by meaning instead of being loaded in full every session. MIT. |
+| 🌐 **[mnemosyne-os.github.io](https://github.com/Mnemosyne-OS/mnemosyne-os.github.io)** | The organization on GitHub Pages. |
 | 📄 **[.github](https://github.com/Mnemosyne-OS/.github)** | This page, and the generator that draws it. |
 
-The nine remaining repositories are the cartridges below.
+**Memory cartridges**
 
-<h2><img width="100%" alt="05. The cartridges, 9 apps inside the OS" src="assets/gen/band-cartridges.svg"></h2>
+| Repository | What lives there |
+|---|---|
+| ⚖️ **[MnemoLaw](https://github.com/Mnemosyne-OS/MnemoLaw)** | The laws of your city or your country, quoted word for word in the chat. |
 
-Small apps that run *inside* the OS and share its memory. Most are one click from
-MnemoHub, the built-in store; Ariadne and MnemoHermes install from their own URL. Each
-one is a worked example of the SDK as much as a tool.
+**Cartridges: apps that run inside the OS and share its memory**
 
-<div align="center">
+| Repository | What lives there |
+|---|---|
+| 🤖 **[MnemoHermes](https://github.com/Mnemosyne-OS/MnemoHermes)** | A cockpit for Hermes Agent: watch it, talk to it, keep or reject every memory it writes. |
+| 🧵 **[Ariadne](https://github.com/Mnemosyne-OS/Ariadne)** | Browse what your coding agents wrote, and keep the drafts worth keeping. |
+| 🎓 **[Melete](https://github.com/Mnemosyne-OS/Melete)** | A course becomes a mind map, flashcards and a quiz. |
+| 🌌 **[MnemoCosmos](https://github.com/Mnemosyne-OS/MnemoCosmos)** | An offline sky atlas wired to your memory. |
+| 🧪 **[MnemoMolecule](https://github.com/Mnemosyne-OS/MnemoMolecule)** | Molecular structures in 3D, and what your own notes say about them. |
+| 🫀 **[MnemoAtlas](https://github.com/Mnemosyne-OS/MnemoAtlas)** | An interactive 3D atlas of the human body, offline. |
+| 📚 **[MnemoReader](https://github.com/Mnemosyne-OS/MnemoReader---MnemosyneOS)** | A PDF library that reads itself aloud. |
+| 🏠 **[Oikos](https://github.com/Mnemosyne-OS/Oikos)** | Your Home Assistant, read into your memory. |
+| 🏝️ **[MnemoArchipel](https://github.com/Mnemosyne-OS/MnemoArchipel---Mnemosyne-OS)** | A personal CRM for the people in your life. |
+| 🍽️ **[MnemoResto](https://github.com/Mnemosyne-OS/MnemoResto---MnemosyneOS)** | The restaurant that forgets no guest. |
+| 📣 **[Pheme](https://github.com/Mnemosyne-OS/Pheme)** | A reputation coach for Reddit and Hacker News that never posts. |
+| ✨ **[Muse](https://github.com/Mnemosyne-OS/Muse)** | Describe an app, get a real project on disk. |
+| 🌍 **[Translator](https://github.com/Mnemosyne-OS/mnemosyne_OS-translator)** | Batch translation under your own key. |
+| 🗺️ **[BMAD](https://github.com/Mnemosyne-OS/mnemosyne_OS-bmad)** | An idea turned into a project blueprint. |
 
-<a href="https://github.com/Mnemosyne-OS/Muse"><img width="19%" alt="Muse: describe an app, get a real project on disk" src="assets/gen/card-muse.svg"></a>
-<a href="https://github.com/Mnemosyne-OS/MnemoReader---MnemosyneOS"><img width="19%" alt="MnemoReader: a PDF library that reads itself aloud" src="assets/gen/card-reader.svg"></a>
-<a href="https://github.com/Mnemosyne-OS/MnemoArchipel---Mnemosyne-OS"><img width="19%" alt="MnemoArchipel: a sovereign CRM for the people in your life" src="assets/gen/card-archipel.svg"></a>
-<a href="https://github.com/Mnemosyne-OS/MnemoResto---MnemosyneOS"><img width="19%" alt="MnemoResto: the restaurant that forgets no guest" src="assets/gen/card-resto.svg"></a>
-<a href="https://github.com/Mnemosyne-OS/Oikos"><img width="19%" alt="Oikos: your home, read into your own memory" src="assets/gen/card-oikos.svg"></a>
+**For your coding agents**
 
-<a href="https://github.com/Mnemosyne-OS/mnemosyne_OS-translator"><img width="19%" alt="Translator: batch translation under your own key" src="assets/gen/card-translator.svg"></a>
-<a href="https://github.com/Mnemosyne-OS/mnemosyne_OS-bmad"><img width="19%" alt="BMAD: an idea turned into a project blueprint" src="assets/gen/card-bmad.svg"></a>
-<a href="https://github.com/Mnemosyne-OS/Ariadne"><img width="19%" alt="Ariadne: every coding session, and the files it touched" src="assets/gen/card-ariadne.svg"></a>
-<a href="https://github.com/Mnemosyne-OS/MnemoHermes"><img width="19%" alt="MnemoHermes: a control room for your local agent" src="assets/gen/card-hermes.svg"></a>
-<a href="https://github.com/Mnemosyne-OS/Mnemosyne-Neural-OS#readme"><img width="19%" alt="Yours: build a cartridge with the MnemoForge CLI" src="assets/gen/card-yours.svg"></a>
+| Repository | What lives there |
+|---|---|
+| 🧷 **[agent-memory-skill](https://github.com/Mnemosyne-OS/agent-memory-skill)** | A Claude Code skill that indexes your agent's memory folder into a vault. |
+| 🧰 **[mnemosyne-skills](https://github.com/Mnemosyne-OS/mnemosyne-skills)** | The Claude Code skills we use to build Mnemosyne OS. |
+| 👁️ **[mnemosyne-agents-for-humans](https://github.com/Mnemosyne-OS/mnemosyne-agents-for-humans)** | Watcher: an agent that tells you what your other coding agents did. |
 
-</div>
+**The proof**
 
-Oikos, MnemoReader, Translator, Ariadne and MnemoHermes are MIT. The other four carry the
-Mnemosyne cartridge licence: read the source, adapt it for yourself, run it inside the OS.
-The surfaces you extend are open, the memory engine is sealed.
+| Repository | What lives there |
+|---|---|
+| 🔬 **[MnemosyneOS---benchmarks](https://github.com/Mnemosyne-OS/MnemosyneOS---benchmarks)** | Every benchmark campaign published whole: methodology, per-question verdicts, raw logs, and a kit that re-derives each score. CC BY 4.0. |
+
+The surfaces you extend are open. The memory engine is sealed.
 
 <h2><img width="100%" alt="06. Psyche, the soul engine" src="assets/gen/band-psyche.svg"></h2>
 
-Memory is half of the relationship. Psyche is the other half: a persistent personality
-for your AI, character, voice and identity, forged by you in a guided ritual and
-carried across conversations and across models. Change vendors, it comes with you.
-
-Psyche ships inside Mnemosyne OS today. A standalone forge, for any agent anywhere, is
-next.
+Psyche gives your AI a persistent personality: character, voice and identity, forged by
+you in a guided ritual and carried across conversations and across models. Psyche ships
+inside Mnemosyne OS today.
 
 **[→ psyche.mnemosyne-os.io](https://psyche.mnemosyne-os.io)**
 
@@ -154,13 +170,9 @@ whole benchmark again ([every answer](https://github.com/Mnemosyne-OS/MnemosyneO
 judges changed between these runs, so the figures sit side by side and never chain
 into a progression.
 
-Anyone can publish a percentage. We publish the ledger underneath it: every question,
-every retrieved chunk, every judgement, plus a script that re-derives each score from
-those raw results.
-
 <div align="center">
 
-**[→ Open the verification kit](https://mnemosyne-os.github.io/MnemosyneOS---benchmarks/verification-kit/)** · **[→ The August raw runs](https://github.com/Mnemosyne-OS/MnemosyneOS---benchmarks/tree/main/lexical-2026-08)**
+**[→ Open the verification kit](https://mnemosyne-os.github.io/MnemosyneOS---benchmarks/verification-kit/)**
 
 </div>
 
@@ -190,22 +202,7 @@ Published by **XPACEGEMS LLC**. These are its official addresses.
 | **Packages** | the npm scope `@mnemosyne_os`, [the list](https://mnemosyne-os.io/packages) |
 | **Contact** | [dev@mnemosyne-os.io](mailto:dev@mnemosyne-os.io) |
 
-The stories behind the numbers are on [the blog](https://mnemosyne-os.io/blog):
-**[A multiplier cannot rescue a zero](https://mnemosyne-os.io/blog/a-multiplier-cannot-rescue-a-zero)** ·
-**[72.9% and the three questions we miss](https://mnemosyne-os.io/blog/full-haystack-72-9)** ·
-**[We gave personality control of memory. It cost 31 points.](https://mnemosyne-os.io/blog/personality-lens-31-points)** ·
-**[Present is not the same as loadable](https://mnemosyne-os.io/blog/a-release-that-could-not-load-a-model)** ·
-**[The memory my brain kept asking for](https://mnemosyne-os.io/blog/la-memoire-que-mon-cerveau-reclamait)**
-
 <div align="center">
-
-<br/>
-
-[![Star the repository](https://img.shields.io/github/stars/Mnemosyne-OS/Mnemosyne-Neural-OS?style=for-the-badge&logo=github&label=Star%20the%20repository&labelColor=0b1120&color=8b5cf6)](https://github.com/Mnemosyne-OS/Mnemosyne-Neural-OS)
-
-Every figure on this page is one we published ourselves. That badge is the exception:
-GitHub counts it. A star also files the repository under your own account and reaches
-the people who follow you.
 
 <br/>
 
