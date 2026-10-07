@@ -72,7 +72,7 @@ If its way of answering surprised you, we want to read about it:
 | 🕸️ **Several machines** | Pair your computers on your local network, see every machine's agents on one desktop, and give each computer a role. |
 
 Mnemosyne OS runs from 8 GB of RAM on Windows, macOS and Linux, and adapts to your
-hardware at install time. With 40 GB of RAM you can run everything locally, with the
+hardware at install time. With 32 GB of RAM you can run everything locally, with the
 largest models.
 
 <h2><img width="100%" alt="04. Memory cartridges, public knowledge in your memory" src="assets/gen/band-memory.svg"></h2>
