@@ -64,7 +64,7 @@ If its way of answering surprised you, we want to read about it:
 | | |
 |---|---|
 | 🛩️ **A control room for your agents** | Your coding agents appear as cards on your desktop, through [herdr](https://github.com/herdrdev/herdr). You see which one is working and which one waits, and you reply from its card. Hermes Agent installs in one click and answers you on Telegram. |
-| 🖐️ **JARVIS mode** | You talk to the orb and it runs your commands. Through your webcam, you move windows with your hands (beta). With a local model, everything runs on your machine and costs $0 in tokens. |
+| 🖐️ **JARVIS mode** | You talk to the orb and it runs your commands. Through your webcam, you move windows with your hands. With a local model, everything runs on your machine and costs $0 in tokens. |
 | 🧑‍💻 **Developers** | Connect your memory to Claude Code, Cursor or any MCP client. Your agents start with your code, your decisions and your notes. |
 | 🎓 **Students** | Import a course as a PDF, a Word file or a photo. Melete turns it into a mind map, flashcards and a quiz. |
 | 🔬 **Researchers** | Every answer cites its sources, and a second pass checks each sentence against them. |
