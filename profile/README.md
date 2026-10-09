@@ -4,7 +4,7 @@
 
 <br/><br/>
 
-[![Download Mnemosyne OS](https://img.shields.io/badge/Download-Mnemosyne_OS_v1.7.0-111827?style=for-the-badge&logo=github)](https://github.com/Mnemosyne-OS/Mnemosyne-Neural-OS/releases/latest)
+[![Download Mnemosyne OS](https://img.shields.io/badge/Download-Mnemosyne_OS_v1.8.0-111827?style=for-the-badge&logo=github)](https://github.com/Mnemosyne-OS/Mnemosyne-Neural-OS/releases/latest)
 [![Documentation](https://img.shields.io/badge/📖_Read_the_guide-docs.mnemosyne--os.io-8b5cf6?style=for-the-badge&labelColor=0b1120)](https://docs.mnemosyne-os.io)
 
 <br/>
