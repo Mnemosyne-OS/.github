@@ -17,6 +17,12 @@
 
 </div>
 
+### Try them in your browser, nothing to install
+
+| [<img src="https://huggingface.co/spaces/Mnemosyne-OS/mnemosyne-avatar/resolve/main/thumbnail.png" width="100%" alt="Mnemosyne Avatar, a face made of particles">](https://huggingface.co/spaces/Mnemosyne-OS/mnemosyne-avatar) | [<img src="https://huggingface.co/spaces/Mnemosyne-OS/mnemoclio/resolve/main/thumbnail.png" width="100%" alt="MnemoClio, the history of every country on one timeline">](https://huggingface.co/spaces/Mnemosyne-OS/mnemoclio) | [<img src="https://huggingface.co/spaces/Mnemosyne-OS/mnemoclima/resolve/main/thumbnail.png" width="100%" alt="MnemoClima, the world's climate on a map and a timeline">](https://huggingface.co/spaces/Mnemosyne-OS/mnemoclima) |
+|:---:|:---:|:---:|
+| **Mnemosyne Avatar**<br/>A face made of particles that looks at you, listens and speaks. It thinks, hears and talks in your browser.<br/>[▶ Talk to it](https://huggingface.co/spaces/Mnemosyne-OS/mnemosyne-avatar) · [Code](https://github.com/Mnemosyne-OS/mnemosyne-avatar) | **MnemoClio**<br/>The history of 197 countries on one timeline you can move, from five centuries down to five years.<br/>[▶ Open it](https://huggingface.co/spaces/Mnemosyne-OS/mnemoclio) · [Code](https://github.com/Mnemosyne-OS/MnemoClio) | **MnemoClima**<br/>El Niño, ocean heat and disasters on a map and a timeline, read from NOAA, NASA and USGS.<br/>[▶ Open it](https://huggingface.co/spaces/Mnemosyne-OS/mnemoclima) · [Code](https://github.com/Mnemosyne-OS/MnemoClima) |
+
 <h2><img width="100%" alt="01. What we build, an assistant that remembers you" src="assets/gen/band-build.svg"></h2>
 
 Mnemosyne OS is an AI assistant that remembers you. It runs on your own machine.
@@ -86,7 +92,7 @@ like your own notes. Every text keeps its source, its date and its licence.
 | ⚖️ **[MnemoLaw](https://github.com/Mnemosyne-OS/MnemoLaw)** | The laws of your city or your country: US city codes, national codes, EU regulations and international treaties, quoted word for word. |
 | 🩺 **MnemoHealth** | Medical texts from public sources: rare diseases (Orphanet), mental health (NIMH), WHO fact sheets and open-access research articles. |
 | 🔭 **MnemoScience** | Textbooks and science texts by field: physics, chemistry, biology, mathematics, astronomy and the history of science. |
-| 🕰️ **MnemoClio** | The history of 197 countries on a timeline you can move, from five centuries down to five years. |
+| 🕰️ **[MnemoClio](https://github.com/Mnemosyne-OS/MnemoClio)** | The history of 197 countries on a timeline you can move, from five centuries down to five years. [Try it in your browser](https://huggingface.co/spaces/Mnemosyne-OS/mnemoclio). |
 | 🛡️ **MnemoVulns** | Known vulnerabilities in your projects' dependencies, each with the version that fixes it. |
 | ™️ **MnemoMarks** | Trademark registers on your machine. Before you name your project, check the marks already registered. |
 
@@ -101,6 +107,14 @@ These are the first memory cartridges. Many more are on the way.
 | 💿 **[Mnemosyne-Neural-OS](https://github.com/Mnemosyne-OS/Mnemosyne-Neural-OS)** | The desktop app: documentation, the MnemoForge CLI, the developer SDKs, and every signed release for the three platforms. |
 | 🌐 **[mnemosyne-os.github.io](https://github.com/Mnemosyne-OS/mnemosyne-os.github.io)** | The organization on GitHub Pages. |
 | 📄 **[.github](https://github.com/Mnemosyne-OS/.github)** | This page, and the generator that draws it. |
+
+**Open to everyone, and running on Hugging Face**
+
+| Repository | What lives there |
+|---|---|
+| 🎭 **[mnemosyne-avatar](https://github.com/Mnemosyne-OS/mnemosyne-avatar)** | Mnemosyne Avatar, the particle face of the OS, on three.js. Apache 2.0 code, CC BY 4.0 faces. [Talk to it](https://huggingface.co/spaces/Mnemosyne-OS/mnemosyne-avatar). |
+| 🕰️ **[MnemoClio](https://github.com/Mnemosyne-OS/MnemoClio)** | The history of every country on one timeline you can move. [Open it](https://huggingface.co/spaces/Mnemosyne-OS/mnemoclio). |
+| 🌊 **[MnemoClima](https://github.com/Mnemosyne-OS/MnemoClima)** | The world's climate on a map and a timeline you can move. MIT. [Open it](https://huggingface.co/spaces/Mnemosyne-OS/mnemoclima). |
 
 **Memory cartridges**
 
