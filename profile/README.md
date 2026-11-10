@@ -98,7 +98,7 @@ like your own notes. Every text keeps its source, its date and its licence.
 
 These are the first memory cartridges. Many more are on the way.
 
-<h2><img width="100%" alt="05. The organization, 22 public repositories" src="assets/gen/band-org.svg"></h2>
+<h2><img width="100%" alt="05. The organization, 48 public repositories" src="assets/gen/band-org.svg"></h2>
 
 **The OS**
 
